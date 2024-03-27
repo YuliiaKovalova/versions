@@ -365,6 +365,7 @@
         "https://github.com/dotnet/msbuild/blob/vs/**/*",
         "https://github.com/dotnet/msbuild/blob/main/**/*",
         "https://github.com/dotnet/msbuild/blob/exp/**/*",
+        "https://github.com/dotnet/msbuild/blob/perf/**/*",
         "https://github.com/dotnet/project-system/blob/main/**/*",
         "https://github.com/dotnet/source-build/blob/main/**/*",
         "https://github.com/dotnet/source-build/blob/release/**/*",
@@ -419,9 +420,13 @@
         "https://github.com/dotnet/aspnetcore/blob/release/**/*",
         "https://github.com/dotnet/astra/blob/main/**/*",
         "https://github.com/dotnet/astra/blob/release/**/*",
+        "https://github.com/dotnet/aspire/blob/main/**/*",
+        "https://github.com/dotnet/aspire/blob/vNext/**/*",
+        "https://github.com/dotnet/aspire/blob/release/**/*",
         "https://github.com/dotnet/binaryen/blob/dotnet/main/**/*",
         "https://github.com/dotnet/binaryen/blob/dotnet/release/**/*",
         "https://github.com/dotnet/cecil/blob/main/**/*",
+        "https://github.com/dotnet/cecil/blob/release/**/*",
         "https://github.com/dotnet/cli-lab/blob/main/**/*",
         "https://github.com/dotnet/cli-lab/blob/release/**/*",
         "https://github.com/dotnet/cli/blob/rel/**/*",
@@ -468,8 +473,11 @@
         "https://github.com/dotnet/emscripten/blob/dotnet/release/**/*",
         "https://github.com/dotnet/emsdk/blob/main/**/*",
         "https://github.com/dotnet/emsdk/blob/release/**/*",
+        "https://github.com/dotnet/extensions/blob/dev/**/*",
         "https://github.com/dotnet/extensions/blob/main/**/*",
         "https://github.com/dotnet/extensions/blob/release/**/*",
+        "https://github.com/dotnet/format/blob/main/**/*",
+        "https://github.com/dotnet/format/blob/release/**/*",
         "https://github.com/dotnet/fsharp/blob/main/**/*",
         "https://github.com/dotnet/fsharp/blob/release/**/*",
         "https://github.com/dotnet/hotreload-utils/blob/main/**/*",
@@ -492,7 +500,6 @@
         "https://github.com/dotnet/interactive/blob/release/**/*",
         "https://github.com/dotnet/iot/blob/main/**/*",
         "https://github.com/dotnet/iot/blob/release/**/*",
-        "https://github.com/dotnet/linker/blob/main/**/*",
         "https://github.com/dotnet/linker/blob/release/**/*",
         "https://github.com/dotnet/llvm-project/blob/objwriter/**/*",
         "https://github.com/dotnet/llvm-project/blob/dotnet/main-14.x/**/*",
@@ -502,6 +509,7 @@
         "https://github.com/dotnet/machinelearning/blob/main/**/*",
         "https://github.com/dotnet/machinelearning/blob/release/**/*",
         "https://github.com/dotnet/maintenance-packages/blob/main/**/*",
+        "https://github.com/dotnet/maintenance-packages/blob/release/**/*",
         "https://github.com/dotnet/maui/blob/main/**/*",
         "https://github.com/dotnet/maui/blob/release/**/*",
         "https://github.com/dotnet/metadata-tools/blob/main/**/*",
@@ -516,8 +524,6 @@
         "https://github.com/dotnet/msquic/blob/release/**/*",
         "https://github.com/dotnet/node/blob/dotnet/main/**/*",
         "https://github.com/dotnet/node/blob/dotnet/release/**/*",
-        "https://github.com/dotnet/orleans/blob/main/**/*",
-        "https://github.com/dotnet/orleans/blob/3.x/**/*",
         "https://github.com/dotnet/org-policy/blob/main/**/*",
         "https://github.com/dotnet/performance/blob/main/**/*",
         "https://github.com/dotnet/performance/blob/release/**/*",
@@ -530,6 +536,7 @@
         "https://github.com/dotnet/roslyn-analyzers/blob/main/**/*",
         "https://github.com/dotnet/roslyn-analyzers/blob/release/**/*",
         "https://github.com/dotnet/roslyn-debug/blob/main/**/*",
+        "https://github.com/dotnet/roslyn-tool/blob/main/**/*",
         "https://github.com/dotnet/roslyn/blob/features/**/*",
         "https://github.com/dotnet/roslyn/blob/main-vs-deps/**/*",
         "https://github.com/dotnet/roslyn/blob/main/**/*",
@@ -560,8 +567,6 @@
         "https://github.com/dotnet/source-indexer/blob/main/**/*",
         "https://github.com/dotnet/sourcelink/blob/main/**/*",
         "https://github.com/dotnet/sourcelink/blob/release/**/*",
-        "https://github.com/dotnet/spark/blob/main/**/*",
-        "https://github.com/dotnet/spark/blob/release/**/*",
         "https://github.com/dotnet/standard/blob/release/**/*",
         "https://github.com/dotnet/symreader-converter/blob/main/**/*",
         "https://github.com/dotnet/symreader-converter/blob/release/**/*",
@@ -588,8 +593,9 @@
         "https://github.com/dotnet/upgrade-assistant/blob/release/**/*",
         "https://github.com/dotnet/versions/blob/main/**/*",
         "https://github.com/dotnet/vscode-csharp/blob/main/**/*",
-        "https://github.com/dotnet/vscode-csharp/blob/prerelease/**/*",
+        "https://github.com/dotnet/vscode-csharp/blob/patch/**/*",
         "https://github.com/dotnet/vscode-csharp/blob/release/**/*",
+        "https://github.com/dotnet/vscode-csharp/blob/prerelease/**/*",
         "https://github.com/dotnet/vscode-dotnet-runtime/blob/main/**/*",
         "https://github.com/dotnet/vscode-dotnet-runtime/blob/release/**/*",
         "https://github.com/dotnet/vscode-dotnet-pack/blob/main/**/*",
@@ -623,6 +629,9 @@
         "https://github.com/Microsoft/clrmd/blob/main/**/*",
         "https://github.com/Microsoft/clrmd/blob/release/**/*",
         "https://github.com/Microsoft/dotnet-framework-docker/blob/main/**/*",
+        "https://github.com/microsoft/fluentui-blazor/blob/main/**/*",
+        "https://github.com/microsoft/fluentui-blazor/blob/dev/**/*",
+        "https://github.com/microsoft/fluentui-blazor/blob/archives-v3/**/*",
         "https://github.com/microsoft/go-images/blob/dev/official/**/*",
         "https://github.com/microsoft/go-images/blob/microsoft/main/**/*",
         "https://github.com/microsoft/go-images/blob/microsoft/nightly/**/*",
@@ -673,6 +682,23 @@
       ],
       "action": "github-runtime-main-to-runtimelab-mirror",
       "actionArguments": {}
+    },
+    // Automate merging runtime release/8.0 branch into release/8.0-staging
+    {
+      "triggerPaths": [
+        "https://github.com/dotnet/runtime/blob/release/8.0/**/*"
+      ],
+      "action": "github-dnceng-branch-merge-pr-generator",
+      "actionArguments": {
+        "vsoSourceBranch": "main",
+        "vsoBuildParameters": {
+          "GithubRepoOwner": "dotnet",
+          "GithubRepoName": "<trigger-repo>",
+          "HeadBranch": "<trigger-branch>",
+          "BaseBranch": "release/8.0-staging",
+          "ExtraSwitches": "-QuietComments"
+        }
+      }
     },
     // Automate merging runtime release/7.0 branch into release/7.0-staging
     {
@@ -772,9 +798,8 @@
     },
     {
       "triggerPaths": [
-        "https://github.com/dotnet/ef6/blob/release/6.4//**/*",
-        "https://github.com/dotnet/efcore/blob/release/6.0//**/*",
-        "https://github.com/dotnet/efcore/blob/release/7.0//**/*",
+        "https://github.com/dotnet/ef6/blob/release/6.5//**/*",
+        "https://github.com/dotnet/efcore/blob/release/8.0//**/*",
         "https://github.com/dotnet/razor-compiler/blob/release/6.0.2xx//**/*"
       ],
       "action": "github-dnceng-branch-merge-pr-generator",
@@ -785,57 +810,6 @@
           "GithubRepoName": "<trigger-repo>",
           "HeadBranch": "<trigger-branch>",
           "BaseBranch": "main",
-          "ExtraSwitches": "-QuietComments"
-        }
-      }
-    },
-    // Automate merging efcore release/8.0-rc branches back to release/8.0
-    {
-      "triggerPaths": [
-        "https://github.com/dotnet/efcore/blob/release/8.0-rc/**/*"
-      ],
-      "action": "github-dnceng-branch-merge-pr-generator",
-      "actionArguments": {
-        "vsoSourceBranch": "main",
-        "vsoBuildParameters": {
-          "GithubRepoOwner": "dotnet",
-          "GithubRepoName": "<trigger-repo>",
-          "HeadBranch": "<trigger-branch>",
-          "BaseBranch": "release/8.0",
-          "ExtraSwitches": "-QuietComments"
-        }
-      }
-    },
-    // Automate opening PRs to merge efcore release/8.0 branch back to main
-    {
-      "triggerPaths": [
-        "https://github.com/dotnet/efcore/blob/release/8.0//**/*"
-      ],
-      "action": "github-dnceng-branch-merge-pr-generator",
-      "actionArguments": {
-        "vsoSourceBranch": "main",
-        "vsoBuildParameters": {
-          "GithubRepoOwner": "dotnet",
-          "GithubRepoName": "<trigger-repo>",
-          "HeadBranch": "<trigger-branch>",
-          "BaseBranch": "main",
-          "ExtraSwitches": "-QuietComments"
-        }
-      }
-    },
-    // Automate merging extensions release/8.0-rc branches back to release/8.0
-    {
-      "triggerPaths": [
-        "https://github.com/dotnet/extensions/blob/release/8.0-rc/**/*"
-      ],
-      "action": "github-dnceng-branch-merge-pr-generator",
-      "actionArguments": {
-        "vsoSourceBranch": "main",
-        "vsoBuildParameters": {
-          "GithubRepoOwner": "dotnet",
-          "GithubRepoName": "<trigger-repo>",
-          "HeadBranch": "<trigger-branch>",
-          "BaseBranch": "release/8.0",
           "ExtraSwitches": "-QuietComments"
         }
       }
@@ -857,10 +831,10 @@
         }
       }
     },
-    // Automate merging aspnetcore release/8.0-rc branches back to release/8.0
+    // Automate opening PRs to merge extensions main branch back to dev
     {
       "triggerPaths": [
-        "https://github.com/dotnet/aspnetcore/blob/release/8.0-rc/**/*"
+        "https://github.com/dotnet/extensions/blob/main//**/*"
       ],
       "action": "github-dnceng-branch-merge-pr-generator",
       "actionArguments": {
@@ -869,15 +843,32 @@
           "GithubRepoOwner": "dotnet",
           "GithubRepoName": "<trigger-repo>",
           "HeadBranch": "<trigger-branch>",
-          "BaseBranch": "release/8.0",
+          "BaseBranch": "dev",
           "ExtraSwitches": "-QuietComments"
         }
       }
     },
-    // Automate opening PRs to merge aspnetcore release/8.0 branch back to main
+    // Automate opening PRs to merge aspire main branch back to vNext
     {
       "triggerPaths": [
-        "https://github.com/dotnet/aspnetcore/blob/release/8.0//**/*"
+        "https://github.com/dotnet/aspire/blob/main//**/*"
+      ],
+      "action": "github-dnceng-branch-merge-pr-generator",
+      "actionArguments": {
+        "vsoSourceBranch": "main",
+        "vsoBuildParameters": {
+          "GithubRepoOwner": "dotnet",
+          "GithubRepoName": "<trigger-repo>",
+          "HeadBranch": "<trigger-branch>",
+          "BaseBranch": "vNext",
+          "ExtraSwitches": "-QuietComments"
+        }
+      }
+    },
+    // Automate opening PRs to merge extensions-samples release/8.0 branch back to main
+    {
+      "triggerPaths": [
+        "https://github.com/dotnet/extensions-samples/blob/release/8.0//**/*"
       ],
       "action": "github-dnceng-branch-merge-pr-generator",
       "actionArguments": {
@@ -887,6 +878,23 @@
           "GithubRepoName": "<trigger-repo>",
           "HeadBranch": "<trigger-branch>",
           "BaseBranch": "main",
+          "ExtraSwitches": "-QuietComments"
+        }
+      }
+    },
+    // Automate opening PRs to merge extensions-samples main branch back to dev
+    {
+      "triggerPaths": [
+        "https://github.com/dotnet/extensions-samples/blob/main//**/*"
+      ],
+      "action": "github-dnceng-branch-merge-pr-generator",
+      "actionArguments": {
+        "vsoSourceBranch": "main",
+        "vsoBuildParameters": {
+          "GithubRepoOwner": "dotnet",
+          "GithubRepoName": "<trigger-repo>",
+          "HeadBranch": "<trigger-branch>",
+          "BaseBranch": "dev",
           "ExtraSwitches": "-QuietComments"
         }
       }
@@ -908,11 +916,12 @@
         }
       }
     },
-    // Automate opening PRs to merge cli release/8.0.1xx to main
+    // Automate opening PRs to merge cli release/8.0.3xx to main
     {
       "triggerPaths": [
-        "https://github.com/dotnet/sdk/blob/release/8.0.1xx//**/*",
-        "https://github.com/dotnet/installer/blob/release/8.0.1xx//**/*"
+        "https://github.com/dotnet/sdk/blob/release/8.0.3xx//**/*",
+        "https://github.com/dotnet/installer/blob/release/8.0.3xx//**/*",
+        "https://github.com/dotnet/templating/blob/release/8.0.3xx//**/*"
       ],
       "action": "github-dnceng-branch-merge-pr-generator",
       "actionArguments": {
@@ -926,11 +935,50 @@
         }
       }
     },
+    // Automate opening PRs to merge cli release/8.0.2xx to 8.0.3xx
+    {
+      "triggerPaths": [
+        "https://github.com/dotnet/sdk/blob/release/8.0.2xx//**/*",
+        "https://github.com/dotnet/installer/blob/release/8.0.2xx//**/*",
+        "https://github.com/dotnet/templating/blob/release/8.0.2xx//**/*"
+      ],
+      "action": "github-dnceng-branch-merge-pr-generator",
+      "actionArguments": {
+        "vsoSourceBranch": "main",
+        "vsoBuildParameters": {
+          "GithubRepoOwner": "dotnet",
+          "GithubRepoName": "<trigger-repo>",
+          "HeadBranch": "<trigger-branch>",
+          "BaseBranch": "release/8.0.3xx",
+          "ExtraSwitches": "-QuietComments"
+        }
+      }
+    },
+    // Automate opening PRs to merge cli release/8.0.1xx to 8.0.2xx
+    {
+      "triggerPaths": [
+        "https://github.com/dotnet/sdk/blob/release/8.0.1xx//**/*",
+        "https://github.com/dotnet/installer/blob/release/8.0.1xx//**/*",
+        "https://github.com/dotnet/templating/blob/release/8.0.1xx//**/*"
+      ],
+      "action": "github-dnceng-branch-merge-pr-generator",
+      "actionArguments": {
+        "vsoSourceBranch": "main",
+        "vsoBuildParameters": {
+          "GithubRepoOwner": "dotnet",
+          "GithubRepoName": "<trigger-repo>",
+          "HeadBranch": "<trigger-branch>",
+          "BaseBranch": "release/8.0.2xx",
+          "ExtraSwitches": "-QuietComments"
+        }
+      }
+    },
     // Automate opening PRs to merge cli release/7.0.4xx to 8.0.1xx
     {
       "triggerPaths": [
         "https://github.com/dotnet/sdk/blob/release/7.0.4xx//**/*",
-        "https://github.com/dotnet/installer/blob/release/7.0.4xx//**/*"
+        "https://github.com/dotnet/installer/blob/release/7.0.4xx//**/*",
+        "https://github.com/dotnet/templating/blob/release/7.0.4xx//**/*"
       ],
       "action": "github-dnceng-branch-merge-pr-generator",
       "actionArguments": {
@@ -948,7 +996,8 @@
     {
       "triggerPaths": [
         "https://github.com/dotnet/sdk/blob/release/7.0.3xx//**/*",
-        "https://github.com/dotnet/installer/blob/release/7.0.3xx//**/*"
+        "https://github.com/dotnet/installer/blob/release/7.0.3xx//**/*",
+        "https://github.com/dotnet/templating/blob/release/7.0.3xx//**/*"
       ],
       "action": "github-dnceng-branch-merge-pr-generator",
       "actionArguments": {
@@ -966,7 +1015,8 @@
     {
       "triggerPaths": [
         "https://github.com/dotnet/sdk/blob/release/7.0.1xx//**/*",
-        "https://github.com/dotnet/installer/blob/release/7.0.1xx//**/*"
+        "https://github.com/dotnet/installer/blob/release/7.0.1xx//**/*",
+        "https://github.com/dotnet/templating/blob/release/7.0.1xx//**/*"
       ],
       "action": "github-dnceng-branch-merge-pr-generator",
       "actionArguments": {
@@ -984,7 +1034,8 @@
     {
       "triggerPaths": [
         "https://github.com/dotnet/sdk/blob/release/6.0.4xx//**/*",
-        "https://github.com/dotnet/installer/blob/release/6.0.4xx//**/*"
+        "https://github.com/dotnet/installer/blob/release/6.0.4xx//**/*",
+        "https://github.com/dotnet/templating/blob/release/6.0.4xx//**/*"
       ],
       "action": "github-dnceng-branch-merge-pr-generator",
       "actionArguments": {
@@ -998,11 +1049,12 @@
         }
       }
     },
-    // Automate opening PRs to merge cli release/6.0.3xx to .4xx
+    // Automate opening PRs to merge cli release/6.0.1xx to .4xx
     {
       "triggerPaths": [
-        "https://github.com/dotnet/sdk/blob/release/6.0.3xx//**/*",
-        "https://github.com/dotnet/installer/blob/release/6.0.3xx//**/*"
+        "https://github.com/dotnet/sdk/blob/release/6.0.1xx//**/*",
+        "https://github.com/dotnet/installer/blob/release/6.0.1xx//**/*",
+        "https://github.com/dotnet/templating/blob/release/6.0.1xx//**/*"
       ],
       "action": "github-dnceng-branch-merge-pr-generator",
       "actionArguments": {
@@ -1012,24 +1064,6 @@
           "GithubRepoName": "<trigger-repo>",
           "HeadBranch": "<trigger-branch>",
           "BaseBranch": "release/6.0.4xx",
-          "ExtraSwitches": "-QuietComments"
-        }
-      }
-    },
-    // Automate opening PRs to merge cli release/6.0.1xx to .3xx
-    {
-      "triggerPaths": [
-        "https://github.com/dotnet/sdk/blob/release/6.0.1xx//**/*",
-        "https://github.com/dotnet/installer/blob/release/6.0.1xx//**/*"
-      ],
-      "action": "github-dnceng-branch-merge-pr-generator",
-      "actionArguments": {
-        "vsoSourceBranch": "main",
-        "vsoBuildParameters": {
-          "GithubRepoOwner": "dotnet",
-          "GithubRepoName": "<trigger-repo>",
-          "HeadBranch": "<trigger-branch>",
-          "BaseBranch": "release/6.0.3xx",
           "ExtraSwitches": "-QuietComments"
         }
       }
@@ -1347,7 +1381,6 @@
         "https://github.com/dotnet/coreclr/blob/release/**/*",
         "https://github.com/dotnet/core-setup/blob/release/**/*",
         "https://github.com/dotnet/cli/blob/release/**/*",
-        "https://github.com/dotnet/source-build/blob/release/**/*",
         "https://github.com/NuGet/NuGet.Client/blob/dev/**/*",
         "https://github.com/NuGet/NuGet.Client/blob/release/**/*"
       ],
@@ -1376,10 +1409,11 @@
         "https://github.com/dotnet/clicommandlineparser/blob/release/**/*",
         "https://github.com/dotnet/diagnostics/blob/release/**/*",
         "https://github.com/dotnet/dotnet-monitor/blob/release/**/*",
-        "https://github.com/dotnet/ef6/blob/release/6.4/**/*",
+        "https://github.com/dotnet/ef6/blob/release/6.5/**/*",
         "https://github.com/dotnet/efcore/blob/release/6.0/**/*",
         "https://github.com/dotnet/efcore/blob/release/7.0/**/*",
         "https://github.com/dotnet/efcore/blob/release/8.0/**/*",
+        "https://github.com/dotnet/format/blob/release/8.x/**/*",
         "https://github.com/dotnet/installer/blob/release/6.0.1xx/**/*",
         "https://github.com/dotnet/installer/blob/release/6.0.2xx/**/*",
         "https://github.com/dotnet/installer/blob/release/6.0.3xx/**/*",
@@ -1389,6 +1423,9 @@
         "https://github.com/dotnet/installer/blob/release/7.0.3xx/**/*",
         "https://github.com/dotnet/installer/blob/release/7.0.4xx/**/*",
         "https://github.com/dotnet/installer/blob/release/8.0.1xx/**/*",
+        "https://github.com/dotnet/installer/blob/release/8.0.2xx/**/*",
+        "https://github.com/dotnet/maintenance-packages/blob/main/**/*",
+        "https://github.com/dotnet/runtime/blob/main/**/*",
         "https://github.com/dotnet/runtime/blob/release/6.0/**/*",
         "https://github.com/dotnet/runtime/blob/release/7.0/**/*",
         "https://github.com/dotnet/runtime/blob/release/8.0/**/*",
@@ -1401,11 +1438,11 @@
         "https://github.com/dotnet/sdk/blob/release/7.0.3xx/**/*",
         "https://github.com/dotnet/sdk/blob/release/7.0.4xx/**/*",
         "https://github.com/dotnet/sdk/blob/release/8.0.1xx/**/*",
+        "https://github.com/dotnet/sdk/blob/release/8.0.2xx/**/*",
         "https://github.com/dotnet/symreader/blob/release/**/*",
         "https://github.com/dotnet/symreader-portable/blob/release/**/*",
         "https://github.com/dotnet/templating/blob/release/6.0/**/*",
         "https://github.com/dotnet/templating/blob/release/7.0.1xx/**/*",
-        "https://github.com/dotnet/templating/blob/release/8.0.1xx/**/*",
         "https://github.com/dotnet/windowsdesktop/blob/release/6.0/**/*",
         "https://github.com/dotnet/windowsdesktop/blob/release/7.0/**/*",
         "https://github.com/dotnet/windowsdesktop/blob/release/8.0/**/*",
@@ -1508,7 +1545,7 @@
         }
       }
     },
-    // Automate opening PRs to merge msbuild's vs17.6 into vs17.7
+    // Automate opening PRs to merge msbuild's vs17.6 into vs17.8
     {
       "triggerPaths": [
         "https://github.com/dotnet/msbuild/blob/vs17.6/**/*"
@@ -1520,7 +1557,7 @@
           "GithubRepoOwner": "dotnet",
           "GithubRepoName": "<trigger-repo>",
           "HeadBranch": "<trigger-branch>",
-          "BaseBranch": "vs17.7"
+          "BaseBranch": "vs17.8"
         }
       }
     },
@@ -1528,6 +1565,38 @@
     {
       "triggerPaths": [
         "https://github.com/dotnet/msbuild/blob/vs17.7/**/*"
+      ],
+      "action": "github-dnceng-branch-merge-pr-generator",
+      "actionArguments": {
+        "vsoSourceBranch": "main",
+        "vsoBuildParameters": {
+          "GithubRepoOwner": "dotnet",
+          "GithubRepoName": "<trigger-repo>",
+          "HeadBranch": "<trigger-branch>",
+          "BaseBranch": "vs17.8"
+        }
+      }
+    },
+    // Automate opening PRs to merge msbuild's vs17.8 into vs17.9
+    {
+      "triggerPaths": [
+        "https://github.com/dotnet/msbuild/blob/vs17.8/**/*"
+      ],
+      "action": "github-dnceng-branch-merge-pr-generator",
+      "actionArguments": {
+        "vsoSourceBranch": "main",
+        "vsoBuildParameters": {
+          "GithubRepoOwner": "dotnet",
+          "GithubRepoName": "<trigger-repo>",
+          "HeadBranch": "<trigger-branch>",
+          "BaseBranch": "vs17.9"
+        }
+      }
+    },
+    // Automate opening PRs to merge msbuild's vs17.7 into vs17.8
+    {
+      "triggerPaths": [
+        "https://github.com/dotnet/msbuild/blob/vs17.9/**/*"
       ],
       "action": "github-dnceng-branch-merge-pr-generator",
       "actionArguments": {

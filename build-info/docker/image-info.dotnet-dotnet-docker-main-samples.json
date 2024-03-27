@@ -6,258 +6,433 @@
       "images": [
         {
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/samples@sha256:30cd0fffd618f90836644fecc248ba8b4e2941fbad148359b304f92208769f1b",
+            "digest": "mcr.microsoft.com/dotnet/samples@sha256:0bca5ff4b566b29c7d323efc0142ee506681efb31a7839cec91a9acbf760dfa8",
             "syndicatedDigests": [
-              "mcr.microsoft.com/dotnet/core/samples@sha256:4bda326b639d82a9c540d29ca38e776ae9f9fc8056a2ee4b2a6740e10af522ec"
+              "mcr.microsoft.com/dotnet/core/samples@sha256:ca19a763571402f9f6937aa730d3db171dd2d7078e4c3775fbddad4e61306d9a"
             ],
-            "created": "2023-09-20T04:43:26.0169327Z",
+            "created": "2024-03-12T21:02:17.8344552Z",
             "sharedTags": [
-              "aspnetapp"
+              "aspnetapp",
+              "aspnetapp-8.0"
             ]
           },
           "platforms": [
             {
-              "dockerfile": "samples/aspnetapp/Dockerfile.chiseled",
+              "dockerfile": "samples/aspnetapp/Dockerfile.alpine",
               "simpleTags": [
-                "aspnetapp-jammy-chiseled-composite-amd64"
+                "aspnetapp-8.0-alpine-amd64",
+                "aspnetapp-alpine-amd64"
               ],
-              "digest": "mcr.microsoft.com/dotnet/samples@sha256:a9beeac662972d8173a7a5daa66fd51120fefd659b6284cef958dd48eadad9ba",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/aspnet@sha256:0ce34c2425758d2db387f9bebe90bfb0b4f632f40c5421f72b7ce3d5ec4db4e2",
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:50639ffcba443fa919651db5a5635a2f37d93e1941ca7b30d40cb3127a8ab6ad",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/aspnet@sha256:646b1c5ff36375f35f6149b0ce19ca095f97b4b882b90652801e9fbe82bcfa8a",
               "osType": "Linux",
-              "osVersion": "ubuntu",
+              "osVersion": "alpine",
               "architecture": "amd64",
-              "created": "2023-09-14T16:49:41.9651354Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/aspnetapp/Dockerfile.chiseled",
+              "created": "2024-03-12T16:34:53.9170406Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/f88171d36edaec4c32ca4dac5574cd7ed1fe5889/samples/aspnetapp/Dockerfile.alpine",
               "layers": [
-                "sha256:6cf38206426af381f03cc495a9db03f6bac71f35501f26187d985011c30c2c92",
-                "sha256:4d801cfa355968c5d1efd63b8d0c23c5549be8d8fea10d26cc089cdcbf3d2f67",
-                "sha256:2c6099f2aef38f0a59189c346c4f23a6a3bee3cdae63cf17ec52adf515659ca5",
-                "sha256:e871489e0c69c0d8762bd11ab137e294a8f7726e2b591f7883905ccae21beef4",
-                "sha256:61480f2945bcef60e509b956f5d37fbd13429dcab2b6b330698923e4f9f29ed6",
-                "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:92f3e6bed902151ffd39a6fea9544e77f6bc43356e26fd29e3bc656dcaf33846"
+                "sha256:d57ff6e481d49539b69544042aeaaa587e866f46c46c1170d798a49544d9a51c",
+                "sha256:458c6e372327ffe4758cf5df0b392976e5965c6acace096ddae9a83cff80895f",
+                "sha256:c9a33571af57877348a66c71fc7e4078cd0a7ac92fdbe85be76925fc8e888940",
+                "sha256:0ab1344a44f8e6ba9e262b8b4cc8d87fff22a90dcb3a2d9fab0cf77c41f2d181",
+                "sha256:73df137ef55b6eecfd212e92100765b064c1c321dbfecacdf742dd37651c2707",
+                "sha256:4e1692478f05c9f77f6dc6c692a8463577d3f41814ef5d7098b6a587f7f9826b",
+                "sha256:4abcf20661432fb2d719aaf90656f55c287f8ca915dc1c92ec14ff61e67fbaf8"
               ]
             },
             {
-              "dockerfile": "samples/aspnetapp/Dockerfile.chiseled-composite",
+              "dockerfile": "samples/aspnetapp/Dockerfile.alpine",
               "simpleTags": [
-                "aspnetapp-jammy-chiseled-composite-arm32v7"
+                "aspnetapp-8.0-alpine-arm32v7",
+                "aspnetapp-alpine-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/dotnet/samples@sha256:b95c587689cac540d7b953b63cbe220b71b8b63a591547e2aa0e3affda283158",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/nightly/aspnet@sha256:7146edec1adfa8b3765c66adea499c66453aff896e3e9c38e35040812a875cbb",
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:b826642f56951c87bc743501926e40035cf85900355d7a8c5bb11ed6a59e17a6",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/aspnet@sha256:646b1c5ff36375f35f6149b0ce19ca095f97b4b882b90652801e9fbe82bcfa8a",
               "osType": "Linux",
-              "osVersion": "ubuntu",
+              "osVersion": "alpine",
               "architecture": "arm32",
-              "created": "2023-09-20T04:19:55.8017604Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/aspnetapp/Dockerfile.chiseled-composite",
+              "created": "2024-03-12T16:13:11.3632033Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/f88171d36edaec4c32ca4dac5574cd7ed1fe5889/samples/aspnetapp/Dockerfile.alpine",
               "layers": [
-                "sha256:233f74a2aaa48825a789ff5ced8a2270b176b0f37a6b03eb81951a56c69cf012",
-                "sha256:9846c295698e0936080517b2257daa8414d767c01672addf4eae0ebe42ed70d5",
-                "sha256:9b94d6bdba4bd412c475bfa3811b29759ee0a3a5d0209116a9d90cddbd90e683",
-                "sha256:f0ad3bf59169615a9ccd3e6344dfd2b46f2593a6f8f0c8f4d7c6432d3ff247e3",
-                "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:507fae355063325218505fd5de4d121d6cb08c2fc4926ef8e675bcce66aa8d2e"
+                "sha256:dbab7b33b7bb2dfc822ca62183e87fd490a1253152f129a478a48c6a2a8a860f",
+                "sha256:6e4b9f0a6350ffa695b5de73e1337e6ed6f0cf92b41fa4c8418475465c45579f",
+                "sha256:744893d676944ae4f9e4f2f45550133465577d2ce5973dbfc2795cefd55ee22b",
+                "sha256:0578d5eec004b1b3eaa3154c6ab0db72ee0a8c862a94523d89b96b974a9459d6",
+                "sha256:cb570dc8ea707a547c736b78494d58037f7ca206aedac48083227fdf2235c60c",
+                "sha256:44c755069f81caf25102a19951773901499033383616daeec45beb691518239a",
+                "sha256:fda0ff469afd28d9cfbb946e8e0a3c911c591a2691bea62be9187e45a1c50549"
               ]
             },
             {
-              "dockerfile": "samples/aspnetapp/Dockerfile.chiseled-composite",
+              "dockerfile": "samples/aspnetapp/Dockerfile.alpine",
               "simpleTags": [
-                "aspnetapp-jammy-chiseled-composite-arm64v8"
+                "aspnetapp-8.0-alpine-arm64v8",
+                "aspnetapp-alpine-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/dotnet/samples@sha256:a4d570acf43c120b08a7bd19750f38c8040e37e1f54def164493a2b1b8da7fb3",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/nightly/aspnet@sha256:7146edec1adfa8b3765c66adea499c66453aff896e3e9c38e35040812a875cbb",
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:5eaa2dcd348e79048c2897f4fdfd6dc4690b46b2cba3bcfa6f4b9962f2b78b3d",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/aspnet@sha256:646b1c5ff36375f35f6149b0ce19ca095f97b4b882b90652801e9fbe82bcfa8a",
               "osType": "Linux",
-              "osVersion": "ubuntu",
+              "osVersion": "alpine",
               "architecture": "arm64",
-              "created": "2023-09-20T04:19:59.3638291Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/aspnetapp/Dockerfile.chiseled-composite",
+              "created": "2024-03-12T16:13:23.2719646Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/f88171d36edaec4c32ca4dac5574cd7ed1fe5889/samples/aspnetapp/Dockerfile.alpine",
               "layers": [
-                "sha256:bc6ab7d2f4bc48e974efeba82f12e74e1e34eb3487b82835e961c85760784eca",
-                "sha256:909ed0dc4823096e4900465d04db40228c43d83730798b3d07b0a6c69b424015",
-                "sha256:31482cb00be1c5ac822dc1414478161300ee88f20cc50cd1b9b2126ea7070f51",
-                "sha256:61cb0fe38da5ac5edc1277d1acdb341a14d1b479ae4dc7f525dd17a32ad3d3ec",
-                "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:a9694431c9009576b41bdc2b2d63fe23a619af36a5a69fe8da3e2267b9985898"
+                "sha256:f7e2c2413f8a263135a68226db052431ddfb8ce962f9c9ceb2bba68dd571f84d",
+                "sha256:197cb3608de1e295a9fdd61f5becab5958bf7a5199f0275ca746fe10ae176918",
+                "sha256:5752d743bfffced9ad7a6e8006a9c19652b2b3cc9bf899a4916c8f676e89dfa0",
+                "sha256:60f29833c3281f97856c04deec64ceec65e23665e81735cc1860c49caed535e1",
+                "sha256:542d13d78ba498e42fe142e6ee86d467fc0ff94965f62ad2bd8a7dd202ee8f53",
+                "sha256:bc100247df553e36458b96a561bcec72c0015d310a5254ec32f4949cc43899d1",
+                "sha256:bca4290a96390d7a6fc6f2f9929370d06f8dfcacba591c76e3d5c5044e7f420c"
               ]
             },
             {
               "dockerfile": "samples/aspnetapp/Dockerfile.nanoserver",
               "simpleTags": [
+                "aspnetapp-8.0-nanoserver-1809",
                 "aspnetapp-nanoserver-1809"
               ],
-              "digest": "mcr.microsoft.com/dotnet/samples@sha256:8e68764d0c3e6ba30846b072d392dde78e0e4cf529709e80afd6c7f0e35e75f3",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/aspnet@sha256:1a7b77c372c363e9892210b7fc75b6f7300ebd6b928a518c2120f4921691839b",
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:45c675d0d10fd84db44153b454d61a82dff58471086694653eacfc1806e4e378",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/aspnet@sha256:a36baeadb123c142bfe14a172635c0c89b58ff6e5f3ff1318cdc15674060feba",
               "osType": "Windows",
               "osVersion": "nanoserver-1809",
               "architecture": "amd64",
-              "created": "2023-09-14T16:46:14.6091273Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/aspnetapp/Dockerfile.nanoserver",
+              "created": "2024-03-12T20:18:33.6986767Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/f6ec771805d726e08327ce123893f8924539ff90/samples/aspnetapp/Dockerfile.nanoserver",
               "layers": [
-                "sha256:fc8b4f1de353d3891cfb9410a2a33233d36b773a9b3d5151c3955611832a4b3f",
-                "sha256:5c9147e3490eb9bbd88f4f290f22e0467494c1b2570cbc5f9bc17c9142ae9950",
-                "sha256:8dd230aea6195d7f67b642e31043f5454518c31ecafdd99bc8a2e590e9151011",
-                "sha256:782739edbd65b4cb8aa5de34cd7b8ecc495b7b9909ea54e05bc7c2cb40a0409e",
-                "sha256:7befed928a2f2d39512aaf4d850384c0623eea28d4c8638f818555850179876d",
-                "sha256:cdc263726aeac603e27070d641cafd4e0763d452ea0a137ea44ddf2671fbe810",
-                "sha256:7fc4e5863ffa52ee47b9f724e1d713ab0f7d5429cbe2875bbf9144b1d851f9a6",
-                "sha256:e3754519b190e067d284ad1f898a6cbcfd68cb07d84a4b8eb33082d73b11d288",
-                "sha256:8efc63df883be9cf005487a5c050b509b131e94543d0b384be02062b93a42080",
-                "sha256:4a642d601f343fe07152e580157b98842737c493c653ed92e3ef67c671c0b7cc",
-                "sha256:7319f379c3678493bc644a9182db569024e3e4d529ede61a368e8a08376c97be",
-                "sha256:17ba6b878467260559b72cb6f7e79c829eae67862a09efe87f6dc324f49fc086"
+                "sha256:b9881b26c2ee219dd166456808934c84162247fc88ecd493db598eb4e17df903",
+                "sha256:678a3c76e8ae7d256aeddf88f4ece0fb524181bee17c37d3e64abee95e67ed70",
+                "sha256:495900566843627c2c91292aab01815a69ae9600fb647560fecf1dc2cb534c18",
+                "sha256:b3a67c9fe4bcb8e8bdaacbd52c16c7d7ffff75dd6856e035790fe440851a97aa",
+                "sha256:d37e99eaf63277eab64613e1e351c7398cca45a468a3702aa42fa169bc4a42b6",
+                "sha256:3b0f77ad485e502f3591e85faed780084293dc390cdc592fa0ff63b021b638ed",
+                "sha256:6d0b0de946ee6e1c050ba25750a9a7ea86c01b46fac884f8f833c590af105fcb",
+                "sha256:6cf8b02efef66adb1392fd698601a95530e869f6722464564b940840d156774d",
+                "sha256:e6ded1ecbef5b47a8a71af3555e12ac9094cc39cf0cbc2403553bb0eea4d7706",
+                "sha256:51ee4e4e2db2d0423aaf0fa26fc6cbef6e5fb577f313d61b155ed1591dd92bb2",
+                "sha256:317d56a47fb0ac348ade1f916634a9df7c17d0ac08cf8d54a4c36bc7caabd081",
+                "sha256:acefe9bb5fb49ed527ab05cbe1703234a61c1d99f759f323829af865f0c8ac1b",
+                "sha256:7d1978583f4a1122c5128a802637410697b681e7aa97b596dcb589b088c0b85d"
               ]
             },
             {
               "dockerfile": "samples/aspnetapp/Dockerfile.nanoserver",
               "simpleTags": [
+                "aspnetapp-8.0-nanoserver-ltsc2022",
                 "aspnetapp-nanoserver-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/samples@sha256:00ec0b5fd73443ae9041b0b039dda218b739fb5bc8eb0e088a2556ec59857dea",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/aspnet@sha256:9c900ed81f163ba320958b86ae3d62005d378252de3a1c59c12d4df6bec56099",
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:0d368c1a91661b38c4c9b5c545e06d0aa883c2dd90dc373d604fc7245cdbd6b6",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/aspnet@sha256:4b5815800a365d018ce528a86563a8c10618e38a7d8305833d2001ac2ed2cc21",
               "osType": "Windows",
               "osVersion": "nanoserver-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-14T16:54:57.335913Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/aspnetapp/Dockerfile.nanoserver",
+              "created": "2024-03-12T20:22:18.8960246Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/f6ec771805d726e08327ce123893f8924539ff90/samples/aspnetapp/Dockerfile.nanoserver",
               "layers": [
-                "sha256:d35673659fddcd545a20844e4d8fc3e60e3253c5036ca2b00b2e18d7ef9aaa1b",
-                "sha256:7d6fb52211991b91e36b136c7157b1a160b35ae13255a2a4d7621b7c9b21ca29",
-                "sha256:7cf6b686277b45d5f6ae00f57daa8343659f2c91f9aefbefc160511acee8266d",
-                "sha256:4c0e6cbcd42874c2aed07e1b0fcad9efe9c3c13ce55a6f9a78d79dc6b9fd28ce",
-                "sha256:e3ee9ebfa8bde65d1c79d028e9c3c74d5c677b618a104536a14f30634033a692",
-                "sha256:a8e973c514cde35776e49cdecbecd5483f3411fe4dd6e43a71a44bff93b169cd",
-                "sha256:f8301ce8d476371629baeb27e1e091a695a5a156c5570bd690acd5136d9fd62f",
-                "sha256:3c0e34211db40b136e4f441d7cf80462c449cb70ae85d510b75d647e5948d2c9",
-                "sha256:ee6455adbd8c6f0b8c9620b3a5696c10e3c3d3685cec2ad16dcbc55966420066",
-                "sha256:49aa076095b75d756d1c087e11f1182cb02eb7f6b0633c6eabe989061f926d38",
-                "sha256:1f32f70b3a1cf8de3406d060dad05ff6f48f81f09d73c5df2698fb76412f4977",
-                "sha256:8f8cef0759210af9d01a2fb45d79956a2db738bbd3734b7244b17e14ad945cab"
+                "sha256:f59b3c0b04d42c3c9c2e4e7cc7145bcaf04f972ef10496973dde1e705778b1af",
+                "sha256:f2b85fbf3304e6a739cc796243df513029c4d273595a65b7caaabdb759b809c2",
+                "sha256:acd67d01b87e1e6d9f9477a3635ca11c903fe8624f9f07fde5574a99fd4b6c0b",
+                "sha256:c5d7f0c63fc756602d45e4c0fee17e4a42bb3d66f5ed9160db6ee177d1742c9e",
+                "sha256:bb83a41944d0325d27c3aa3ac27f17a3d5374b95878524e9d399d1efb6652714",
+                "sha256:82fb7738671639e23c16fdfa49b36fa1b3a32f2a12616a35a4249dc6e815a51f",
+                "sha256:6c9bd53869796bf66a9c5493dcac45c405b8eda9888879b0c6c781c4e4b1e73c",
+                "sha256:5c63696e0e028a6e0c12d0905fcd58d886da35e42f1de9310d2783845240f6ed",
+                "sha256:2527409bc786785d815715faf74cb1236242b4ce5c3662cc09897ee7b9d03ca8",
+                "sha256:a9f5ddc3e811107531ebfee87271f1b830b1fd5c0d8ae88db14bb815acbdf7e6",
+                "sha256:5450c7694a4e393b73195dd8345ab93dcbe3d8d433b4583b86e77e2184342f45",
+                "sha256:26edec3fd2c8af4ed4569211454534fbe31a881801e4ff0d7d122468e83ad39f",
+                "sha256:94ec3b200bababb5c0b6605ad82c23779d8f918fbfe1ef5d1cf51be6f12fa749"
               ]
             }
           ]
         },
         {
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/samples@sha256:08023610095b0e68d27ee5fd633cee14a6dc544d41319ec9a13a608fc97551b4",
+            "digest": "mcr.microsoft.com/dotnet/samples@sha256:67078c6f786145b4b97c935d8c7934781e02f7e1c0aa2eeaeedd129684da192a",
+            "created": "2024-03-12T17:50:29.1344082Z",
+            "sharedTags": [
+              "aspnetapp-chiseled",
+              "aspnetapp-chiseled-8.0"
+            ]
+          },
+          "platforms": [
+            {
+              "dockerfile": "samples/aspnetapp/Dockerfile.chiseled",
+              "simpleTags": [
+                "aspnetapp-chiseled-8.0-amd64",
+                "aspnetapp-chiseled-amd64"
+              ],
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:44b696594a0c1b6c1b1d2a607fb3ef3a86058e06ff838fdee176bbfe9118ac87",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/aspnet@sha256:39f85ed7906df32eef6798d7d50ff54564248cfa9ef8581219f4351fcfa09a4c",
+              "osType": "Linux",
+              "osVersion": "ubuntu",
+              "architecture": "amd64",
+              "created": "2024-03-12T16:14:07.7734786Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/68e8237b4bca505de8ba9fd59ec4418e09c236aa/samples/aspnetapp/Dockerfile.chiseled",
+              "layers": [
+                "sha256:36a380c06bd8ef1df2e8c34e8dd94e8f05087cbb9c3ce3557c9330a3952a0ef6",
+                "sha256:a6e8acad0543356c64f9603c20bb45e9a3e0d5d731eb0579108a486066bea8b9",
+                "sha256:352fa32e71e9448c0bb3cb5b0fd54cd59203015e33311a7d91304017625de367",
+                "sha256:a04d6bdea7dba3d1398aa43889af0ea77799eee1ea3c6171e86f013358207526",
+                "sha256:ca202a1387c8f1806165f4d421cabc376b98d001d388385b40068f9ec4a530a4",
+                "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "sha256:9ae471c8cb44fd48f36d6d115959a1701efc471330746826765d57a00e519a41"
+              ]
+            },
+            {
+              "dockerfile": "samples/aspnetapp/Dockerfile.chiseled",
+              "simpleTags": [
+                "aspnetapp-chiseled-8.0-arm32v7",
+                "aspnetapp-chiseled-arm32v7"
+              ],
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:20888bc1761672c38b6a0420c030c4ec65c1e0d766a84b74daf7139658bc857e",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/aspnet@sha256:39f85ed7906df32eef6798d7d50ff54564248cfa9ef8581219f4351fcfa09a4c",
+              "osType": "Linux",
+              "osVersion": "ubuntu",
+              "architecture": "arm32",
+              "created": "2024-03-12T16:13:52.854271Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/68e8237b4bca505de8ba9fd59ec4418e09c236aa/samples/aspnetapp/Dockerfile.chiseled",
+              "layers": [
+                "sha256:0e8c0061358299f06e8eec2de6a457938f2650ce06e2a84b646f3532f0d6b673",
+                "sha256:81d0b0e54c029a7859816551f78c28da1b8ce0101f118dfb66a3b59cc1c68848",
+                "sha256:8dab50175964c16d7b7bc61e5fd0e171aa29ead4d1e1af18a964ad7c18203f8a",
+                "sha256:e06e6a43854945c0512d484aeac25ba4ea270f8336332ffbc67a19f9f039bbbd",
+                "sha256:8382901e3deb90ce18fda4e32461951be50bcc84840784d32baa920c1744b159",
+                "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "sha256:2afdb24e08331a447c484c86ad3a1445e0b9be04cc686d7180408cb4c174c0a4"
+              ]
+            },
+            {
+              "dockerfile": "samples/aspnetapp/Dockerfile.chiseled",
+              "simpleTags": [
+                "aspnetapp-chiseled-8.0-arm64v8",
+                "aspnetapp-chiseled-arm64v8"
+              ],
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:da5d362b556b53614c03a85e25ab8bab4049cf19429b6a0aed32964258810495",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/aspnet@sha256:39f85ed7906df32eef6798d7d50ff54564248cfa9ef8581219f4351fcfa09a4c",
+              "osType": "Linux",
+              "osVersion": "ubuntu",
+              "architecture": "arm64",
+              "created": "2024-03-12T16:13:16.0196506Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/68e8237b4bca505de8ba9fd59ec4418e09c236aa/samples/aspnetapp/Dockerfile.chiseled",
+              "layers": [
+                "sha256:4b5aef400a695811193d6c258420ddc9c1bcfd95c9c726d5c90401910c378928",
+                "sha256:434696212e6894e297fa91210b317d64123379456577bccf4ffb37ef42462629",
+                "sha256:f07c4b21c4de254ca5541843cf5daf0aa621fdd61f2c1d869a2ef09d1bb2717b",
+                "sha256:3d57abfc7bbed127e67459de72c5455a156ecf8f56ba2ddf8addb76b3f229d61",
+                "sha256:e237d436e9503d18b37cc10e5aa035da9a441219c92d47906026e31675c084c4",
+                "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "sha256:553022c9e9f61c3cb7aca77cd369835ba921dea4f50d86c4fa4af34d176e1cfe"
+              ]
+            }
+          ]
+        },
+        {
+          "manifest": {
+            "digest": "mcr.microsoft.com/dotnet/samples@sha256:1dbd76252de1e288783065fe17fd794c03eaaa03850cb8bee185d07e3ee60527",
             "syndicatedDigests": [
-              "mcr.microsoft.com/dotnet/core/samples@sha256:0a507c02905b270646d232d0ac3a8a3f346092f5f08eb30afdb0e5df55317abc"
+              "mcr.microsoft.com/dotnet/core/samples@sha256:4f1c4415d482c6ce5d4f516487b33e35aa9afb3b27beb6942ed629d3b7310907"
             ],
-            "created": "2023-09-14T17:33:52.4687923Z",
+            "created": "2024-03-12T21:02:17.8344552Z",
             "sharedTags": [
               "dotnetapp",
+              "dotnetapp-8.0",
               "latest"
+            ]
+          },
+          "platforms": [
+            {
+              "dockerfile": "samples/dotnetapp/Dockerfile.alpine",
+              "simpleTags": [
+                "dotnetapp-8.0-alpine-amd64",
+                "dotnetapp-alpine-amd64"
+              ],
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:5f12a5b9f6523eeafe02578012a576c122c8bc019706cf0e38849b2ec7386fd5",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:1d1ddab7d571bb995f8a6e9e7f7b441d0c1a2b3a12a42ad0fda085bb4e8e9e94",
+              "osType": "Linux",
+              "osVersion": "alpine",
+              "architecture": "amd64",
+              "created": "2024-03-12T16:34:46.0045633Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/dotnetapp/Dockerfile.alpine",
+              "layers": [
+                "sha256:6dde2ce26f11afbba0a80d93858683299035579aa4d791d1906e60288a1e1f72",
+                "sha256:ce6547d2c297ee30c339552d4a1ddc647107ee2629796db6de7d85f41591cf9e",
+                "sha256:0ab1344a44f8e6ba9e262b8b4cc8d87fff22a90dcb3a2d9fab0cf77c41f2d181",
+                "sha256:73df137ef55b6eecfd212e92100765b064c1c321dbfecacdf742dd37651c2707",
+                "sha256:4e1692478f05c9f77f6dc6c692a8463577d3f41814ef5d7098b6a587f7f9826b",
+                "sha256:4abcf20661432fb2d719aaf90656f55c287f8ca915dc1c92ec14ff61e67fbaf8"
+              ]
+            },
+            {
+              "dockerfile": "samples/dotnetapp/Dockerfile.alpine",
+              "simpleTags": [
+                "dotnetapp-8.0-alpine-arm32v7",
+                "dotnetapp-alpine-arm32v7"
+              ],
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:88360660b56255971cc3db0da26f0009ea31e07d4e82db60d53ddf53658e756c",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:1d1ddab7d571bb995f8a6e9e7f7b441d0c1a2b3a12a42ad0fda085bb4e8e9e94",
+              "osType": "Linux",
+              "osVersion": "alpine",
+              "architecture": "arm32",
+              "created": "2024-03-12T16:12:59.4274144Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/dotnetapp/Dockerfile.alpine",
+              "layers": [
+                "sha256:7f398853bbaa7880369ae18496d6b48d9afa6a7377806dbad3efdabc27653a31",
+                "sha256:575d250a49b6d49f815e6f407b082a590c5693716b8f0a74534fbe3bd415a8cd",
+                "sha256:0578d5eec004b1b3eaa3154c6ab0db72ee0a8c862a94523d89b96b974a9459d6",
+                "sha256:cb570dc8ea707a547c736b78494d58037f7ca206aedac48083227fdf2235c60c",
+                "sha256:44c755069f81caf25102a19951773901499033383616daeec45beb691518239a",
+                "sha256:fda0ff469afd28d9cfbb946e8e0a3c911c591a2691bea62be9187e45a1c50549"
+              ]
+            },
+            {
+              "dockerfile": "samples/dotnetapp/Dockerfile.alpine",
+              "simpleTags": [
+                "dotnetapp-8.0-alpine-arm64v8",
+                "dotnetapp-alpine-arm64v8"
+              ],
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:b6ca561fbced4e89b96b39baf5153ab6a63c75e342d37bc1f275965c561ca1f7",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:1d1ddab7d571bb995f8a6e9e7f7b441d0c1a2b3a12a42ad0fda085bb4e8e9e94",
+              "osType": "Linux",
+              "osVersion": "alpine",
+              "architecture": "arm64",
+              "created": "2024-03-12T16:13:12.4187629Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/dotnetapp/Dockerfile.alpine",
+              "layers": [
+                "sha256:5ebd3c1b8d2d0876f3249365e24211b11f16eb682b33a08fc1877ff33d4b810a",
+                "sha256:1d19c25e78eba26f1b37b9d03d37eadaabdfcf60e144d52f4e6c9d4c5b9574d9",
+                "sha256:60f29833c3281f97856c04deec64ceec65e23665e81735cc1860c49caed535e1",
+                "sha256:542d13d78ba498e42fe142e6ee86d467fc0ff94965f62ad2bd8a7dd202ee8f53",
+                "sha256:bc100247df553e36458b96a561bcec72c0015d310a5254ec32f4949cc43899d1",
+                "sha256:bca4290a96390d7a6fc6f2f9929370d06f8dfcacba591c76e3d5c5044e7f420c"
+              ]
+            },
+            {
+              "dockerfile": "samples/dotnetapp/Dockerfile.nanoserver",
+              "simpleTags": [
+                "dotnetapp-8.0-nanoserver-1809",
+                "dotnetapp-nanoserver-1809"
+              ],
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:a0b865e7fd3ef2dbd2b885b6915159b43cf11494bd030399709acfaa6ad41d5c",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:3145a4fb257543188223da627e05e580fb1b248565852bb6817b79a59ab4226b",
+              "osType": "Windows",
+              "osVersion": "nanoserver-1809",
+              "architecture": "amd64",
+              "created": "2024-03-12T20:18:12.4749746Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/dotnetapp/Dockerfile.nanoserver",
+              "layers": [
+                "sha256:be7b2d57a9db0981ed947ac038540c015e84a77cfbb280f102fc1dd692a84991",
+                "sha256:3552bb8b03bffbba7fb144c4db3404f0c95e0db96ff2da91634900b08a16b094",
+                "sha256:3922416e8374baa4690a8f77322f90ae0fc835f5dbc645f688318d555afbd3a4",
+                "sha256:6cf8b02efef66adb1392fd698601a95530e869f6722464564b940840d156774d",
+                "sha256:e6ded1ecbef5b47a8a71af3555e12ac9094cc39cf0cbc2403553bb0eea4d7706",
+                "sha256:51ee4e4e2db2d0423aaf0fa26fc6cbef6e5fb577f313d61b155ed1591dd92bb2",
+                "sha256:317d56a47fb0ac348ade1f916634a9df7c17d0ac08cf8d54a4c36bc7caabd081",
+                "sha256:acefe9bb5fb49ed527ab05cbe1703234a61c1d99f759f323829af865f0c8ac1b",
+                "sha256:7d1978583f4a1122c5128a802637410697b681e7aa97b596dcb589b088c0b85d"
+              ]
+            },
+            {
+              "dockerfile": "samples/dotnetapp/Dockerfile.nanoserver",
+              "simpleTags": [
+                "dotnetapp-8.0-nanoserver-ltsc2022",
+                "dotnetapp-nanoserver-ltsc2022"
+              ],
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:403b950c7665b1497de7f4c4c79b3facbda266d6164f950834b10cbe28ad7378",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:5ff18e4cf4315ca452726c893899f4738aec58bc1bd5f20563c2f0c9464b8d54",
+              "osType": "Windows",
+              "osVersion": "nanoserver-ltsc2022",
+              "architecture": "amd64",
+              "created": "2024-03-12T20:21:33.5058001Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/dotnetapp/Dockerfile.nanoserver",
+              "layers": [
+                "sha256:3bd540a636566449427b3f491bf3bf115abb71cec7c61c5367fdef4e9f5502e8",
+                "sha256:9033dcf31e0fc37dd620429aa53ee1e282c400c3dd8a8b01e03fbbd98e7fe087",
+                "sha256:6b91d04db58bbd6571c943283c8654de11c8a61f3d570d336215158ede305083",
+                "sha256:5c63696e0e028a6e0c12d0905fcd58d886da35e42f1de9310d2783845240f6ed",
+                "sha256:2527409bc786785d815715faf74cb1236242b4ce5c3662cc09897ee7b9d03ca8",
+                "sha256:a9f5ddc3e811107531ebfee87271f1b830b1fd5c0d8ae88db14bb815acbdf7e6",
+                "sha256:5450c7694a4e393b73195dd8345ab93dcbe3d8d433b4583b86e77e2184342f45",
+                "sha256:26edec3fd2c8af4ed4569211454534fbe31a881801e4ff0d7d122468e83ad39f",
+                "sha256:94ec3b200bababb5c0b6605ad82c23779d8f918fbfe1ef5d1cf51be6f12fa749"
+              ]
+            }
+          ]
+        },
+        {
+          "manifest": {
+            "digest": "mcr.microsoft.com/dotnet/samples@sha256:ca7479dad5a6313488b5c233ce558554a84f84df0155f441c39136e3b5d04803",
+            "created": "2024-03-12T17:50:29.1344082Z",
+            "sharedTags": [
+              "dotnetapp-chiseled",
+              "dotnetapp-chiseled-8.0"
             ]
           },
           "platforms": [
             {
               "dockerfile": "samples/dotnetapp/Dockerfile.chiseled",
               "simpleTags": [
-                "dotnetapp-jammy-chiseled-amd64"
+                "dotnetapp-chiseled-8.0-amd64",
+                "dotnetapp-chiseled-amd64"
               ],
-              "digest": "mcr.microsoft.com/dotnet/samples@sha256:c4456cae50520f927b2633f987713b53adbaba906c80cf1e636814a7893b9612",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:f3875d82e5079a5d3dc3a6be0006242e9ed2c0ca3e0dc4c0e373a142212fb366",
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:7daa8e35be0f6b2475591f9e312349355619a2fbbfca16b7ac0f51819be5a21f",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:2ae069fda85aec19b05dcb4524d794b67202cd6c870d52f77ff93b53b279b6f7",
               "osType": "Linux",
               "osVersion": "ubuntu",
               "architecture": "amd64",
-              "created": "2023-09-14T16:49:34.950046Z",
+              "created": "2024-03-12T16:14:00.1046784Z",
               "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/dotnetapp/Dockerfile.chiseled",
               "layers": [
-                "sha256:3dbfd4653f50e80c69a3669af2a650622bd0b8f0fd09bca03de757a491dcb4c9",
-                "sha256:23af7dc503dfa38a73d91c84986b84c21da3de1d21b2c814283ca17d2e984afb",
-                "sha256:e871489e0c69c0d8762bd11ab137e294a8f7726e2b591f7883905ccae21beef4",
-                "sha256:61480f2945bcef60e509b956f5d37fbd13429dcab2b6b330698923e4f9f29ed6",
+                "sha256:633ba36b81a3085459dd557187dc4bcfca5a84630b0634923ad956904c8f0486",
+                "sha256:841cd832b208a383928a39906b5488282f79d83d63c1fb7bef017925b050d8da",
+                "sha256:a04d6bdea7dba3d1398aa43889af0ea77799eee1ea3c6171e86f013358207526",
+                "sha256:ca202a1387c8f1806165f4d421cabc376b98d001d388385b40068f9ec4a530a4",
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:92f3e6bed902151ffd39a6fea9544e77f6bc43356e26fd29e3bc656dcaf33846"
+                "sha256:9ae471c8cb44fd48f36d6d115959a1701efc471330746826765d57a00e519a41"
               ]
             },
             {
               "dockerfile": "samples/dotnetapp/Dockerfile.chiseled",
               "simpleTags": [
-                "dotnetapp-jammy-chiseled-arm32v7"
+                "dotnetapp-chiseled-8.0-arm32v7",
+                "dotnetapp-chiseled-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/dotnet/samples@sha256:815820b437f8866870063f5afeca2c1748b3d8f98303513b5e8ccaf6b0491bb1",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:f3875d82e5079a5d3dc3a6be0006242e9ed2c0ca3e0dc4c0e373a142212fb366",
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:fbf2563642ef0156f42ceac885104fda22f6dd051a68487f0f18289323c9e79a",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:2ae069fda85aec19b05dcb4524d794b67202cd6c870d52f77ff93b53b279b6f7",
               "osType": "Linux",
               "osVersion": "ubuntu",
               "architecture": "arm32",
-              "created": "2023-09-14T16:47:41.4753995Z",
+              "created": "2024-03-12T16:13:40.9292222Z",
               "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/dotnetapp/Dockerfile.chiseled",
               "layers": [
-                "sha256:366ffcf04fe212b9f38a2f5639bac1b9df832539bf6aa475f8495c31729c5738",
-                "sha256:67724435ce89dcbc1c37b6c4c723101116b14080b83b659ffcb56fa115b7e9dc",
-                "sha256:409e8b308440b741873d056cd35b3eb0400fccb030ee3507bc014d6d74887c85",
-                "sha256:1b670336b048e897c3249d1c3ce8900075e9e93f77f8107aac9534012d031067",
+                "sha256:d674a9eca03dbafc8841f69c2241c39a87236775327993fd4124fde4811ec2ad",
+                "sha256:25516177ded99df8f13910e7b5c74d9676e7d4c6f44b539eb007f53ec226215b",
+                "sha256:e06e6a43854945c0512d484aeac25ba4ea270f8336332ffbc67a19f9f039bbbd",
+                "sha256:8382901e3deb90ce18fda4e32461951be50bcc84840784d32baa920c1744b159",
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:3f57d97ef027f6302b7edb9d40cdc72c1a098dfb7715815d3fedc094024d7879"
+                "sha256:2afdb24e08331a447c484c86ad3a1445e0b9be04cc686d7180408cb4c174c0a4"
               ]
             },
             {
               "dockerfile": "samples/dotnetapp/Dockerfile.chiseled",
               "simpleTags": [
-                "dotnetapp-jammy-chiseled-arm64v8"
+                "dotnetapp-chiseled-8.0-arm64v8",
+                "dotnetapp-chiseled-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/dotnet/samples@sha256:6e655c3f091b51fdcebb2342ea213e0f651cd75333503d20f73295590b897f48",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:f3875d82e5079a5d3dc3a6be0006242e9ed2c0ca3e0dc4c0e373a142212fb366",
+              "digest": "mcr.microsoft.com/dotnet/samples@sha256:bb82d7d40dc641a65de0d88f1de69d82a1e985611c560a37deccb2c459ffb7cd",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:2ae069fda85aec19b05dcb4524d794b67202cd6c870d52f77ff93b53b279b6f7",
               "osType": "Linux",
               "osVersion": "ubuntu",
               "architecture": "arm64",
-              "created": "2023-09-14T16:49:44.3091455Z",
+              "created": "2024-03-12T16:13:04.2936893Z",
               "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/dotnetapp/Dockerfile.chiseled",
               "layers": [
-                "sha256:e32a72dcf14104a7699e3655ca53466bc584588a0b2ef641e3124cb7be216680",
-                "sha256:4d801cfa355968c5d1efd63b8d0c23c5549be8d8fea10d26cc089cdcbf3d2f67",
-                "sha256:f635e738fbdcdb4f548b75676b7d39a9dce6500833183d1386ea756bb83c98eb",
-                "sha256:4fc25497e4914588e4de8ec26866e2270c06ae20344650234ca1d6ff407264b8",
+                "sha256:cc3d1473585c89e82bd4ab7b2fcef8a05fd1151bdd2087b013de37e281058755",
+                "sha256:646497a6b1f2b5aba77cda84be684cd8906bbaed59eb9b20823b7ca28b01a762",
+                "sha256:3d57abfc7bbed127e67459de72c5455a156ecf8f56ba2ddf8addb76b3f229d61",
+                "sha256:e237d436e9503d18b37cc10e5aa035da9a441219c92d47906026e31675c084c4",
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:f115da59422e0a71e4d30584052a979588f6bfd91af98ddd0f39b0434111b92b"
-              ]
-            },
-            {
-              "dockerfile": "samples/dotnetapp/Dockerfile.nanoserver",
-              "simpleTags": [
-                "dotnetapp-nanoserver-1809"
-              ],
-              "digest": "mcr.microsoft.com/dotnet/samples@sha256:45e28a8fe11a41be7db80de38c658ca071b5c64e4bc9928cbcdb0eaa54ff4add",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:5a21010bc2360e9d9a1968fbd5d52000403a30753df0f86cd3834489f76d9e62",
-              "osType": "Windows",
-              "osVersion": "nanoserver-1809",
-              "architecture": "amd64",
-              "created": "2023-09-14T16:45:50.7671743Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/dotnetapp/Dockerfile.nanoserver",
-              "layers": [
-                "sha256:24a57bdf68d013eb94a9392c30a53b50925758680dd8058837394452e07a06cb",
-                "sha256:83008ab973b55f340decb74aa2c3f17b0a98f1b323272f0ce7d01cf8a9429e48",
-                "sha256:f0597eed465a2ee29010f4cecd8bbf9cd52ce18369a161cb53581e4bc1d6fd6c",
-                "sha256:7fc4e5863ffa52ee47b9f724e1d713ab0f7d5429cbe2875bbf9144b1d851f9a6",
-                "sha256:e3754519b190e067d284ad1f898a6cbcfd68cb07d84a4b8eb33082d73b11d288",
-                "sha256:8efc63df883be9cf005487a5c050b509b131e94543d0b384be02062b93a42080",
-                "sha256:4a642d601f343fe07152e580157b98842737c493c653ed92e3ef67c671c0b7cc",
-                "sha256:7319f379c3678493bc644a9182db569024e3e4d529ede61a368e8a08376c97be",
-                "sha256:17ba6b878467260559b72cb6f7e79c829eae67862a09efe87f6dc324f49fc086"
-              ]
-            },
-            {
-              "dockerfile": "samples/dotnetapp/Dockerfile.nanoserver",
-              "simpleTags": [
-                "dotnetapp-nanoserver-ltsc2022"
-              ],
-              "digest": "mcr.microsoft.com/dotnet/samples@sha256:4dd91772dbe0d675c32c5cb6981553e97b43ffdc3250bcd80ca1f29eba6cc599",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:fa5d2b5d43de231360765e3e9e732a5bc65f867e0f2bd54e69e0d98542cbe5ba",
-              "osType": "Windows",
-              "osVersion": "nanoserver-ltsc2022",
-              "architecture": "amd64",
-              "created": "2023-09-14T16:54:13.1808212Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/c09ce8b720090c91933e4bd380bd1baa3c89f3d3/samples/dotnetapp/Dockerfile.nanoserver",
-              "layers": [
-                "sha256:e11cbd5baea39c3d607c6fe519b54fb61bcfd43b4e0730a0ae69803115541626",
-                "sha256:174c1fc986bf432c8dac2317c1a18425db2a4b71713cb830fc8287b05d3cfd8e",
-                "sha256:5145d0ba0eb398f91392ff72a47ab95ab41642a9a98ad205fe077d9bd75e7354",
-                "sha256:f8301ce8d476371629baeb27e1e091a695a5a156c5570bd690acd5136d9fd62f",
-                "sha256:3c0e34211db40b136e4f441d7cf80462c449cb70ae85d510b75d647e5948d2c9",
-                "sha256:ee6455adbd8c6f0b8c9620b3a5696c10e3c3d3685cec2ad16dcbc55966420066",
-                "sha256:49aa076095b75d756d1c087e11f1182cb02eb7f6b0633c6eabe989061f926d38",
-                "sha256:1f32f70b3a1cf8de3406d060dad05ff6f48f81f09d73c5df2698fb76412f4977",
-                "sha256:8f8cef0759210af9d01a2fb45d79956a2db738bbd3734b7244b17e14ad945cab"
+                "sha256:553022c9e9f61c3cb7aca77cd369835ba921dea4f50d86c4fa4af34d176e1cfe"
               ]
             }
           ]

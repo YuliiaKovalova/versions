@@ -7,8 +7,8 @@
         {
           "productVersion": "3.5",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:139e20138c03baf4f8a6e4cb8e04a29e4a4f5e9fa63ef6e8315b661167199a34",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:00334b3da6bf68daae1a21d5a7232b387465034e3640528e303ce185b0879a4c",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "3.5",
               "4.8-3.5"
@@ -18,69 +18,69 @@
             {
               "dockerfile": "src/aspnet/3.5/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "3.5-20230912-windowsservercore-ltsc2016",
+                "3.5-20240312-windowsservercore-ltsc2016",
                 "3.5-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:2a05c7a15e869d87d76ec2e13ad8e4c6e1c30257ca9d1e0340cb351f8abd1a40",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:f83742c847a776d408f004567e56d66dfed2184bea6ab0fbf752943728099fc0",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:d872d64c0a2bcc77c4f236a2f3a1742684a47d3206f4a3d445a72d76dfd6e0d9",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:b4ab8c3c5920758b6cc90dcc4fa9f066bc182b6d8346cc7b54c520fb736f3f06",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T21:13:44.3421698Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/3.5/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:30:42.6582526Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/aspnet/3.5/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:4363a9804d6252f8b7865f37b6dd7a1081d4b37c5195f4ed12ee1baf8e8bb7e9",
-                "sha256:1a8f4ac25b439c8e09caffa350064cc0e920be311cfdcd0c246c0c414199efd2",
-                "sha256:4fd04b13b3bce07f7c47e3e2fb074d2f8658acbd81c453c0596dd5a70f4900bb",
-                "sha256:ca5e36ad86ee36279caede2de81f5867ae2e72f303e3dd41670aa82f9f3192eb",
-                "sha256:7aeb9fd47413f524cff7dc2dfc2e937e0b91ff413ae0ec8661fff82b78a47875",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:090bdfb53904a51993bd67b98af02b4a722928d18b6fd8e1ab2772f0fa121844",
+                "sha256:a87b557e34d3916d7f95a109c54b4d0b121b478bd9b67ede1d98859e88acda45",
+                "sha256:084befbb6888d333393421bff32035ae1a75e369c351ff7dc8374ab79bc8306a",
+                "sha256:1fa74af8c2e6a621831677d399eda6d671b53361240b39eae13da8febc1911a6",
+                "sha256:1c24695d17f49cb76e3a2ab2679e11634b765c87fe848df9c53fa3448e6bebec",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             },
             {
               "dockerfile": "src/aspnet/3.5/windowsservercore-ltsc2019/Dockerfile",
               "simpleTags": [
-                "3.5-20230912-windowsservercore-ltsc2019",
+                "3.5-20240213-windowsservercore-ltsc2019",
                 "3.5-windowsservercore-ltsc2019"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:aed33b7a5792e0f43549ccdbf5720c2d9eed88a10772ce8556e3d719df7d3401",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:b4b9c4d6c2333089c3227d328f4b1785766fc1c7a4d71221a98e92b39499cc6a",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:9d46f8d56209eba530e59da6f48f3e3b078b3d23fd7d2ae5ac185a8e8635799e",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:dbfddebe67306d688992565b0c4b3117e16103985a17dbf75567f28fa3ac128c",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2023-09-12T20:17:52.5434206Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/3.5/windowsservercore-ltsc2019/Dockerfile",
+              "created": "2024-03-12T18:14:39.2007536Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/aspnet/3.5/windowsservercore-ltsc2019/Dockerfile",
               "layers": [
-                "sha256:45e3a80dc8cc7fd262007ef4423ca13025c1e2c9c8c2671ab679488524d652ac",
-                "sha256:a1baa0d9d0b4aac2d04509fbb946f6406ec4d98a14f774da79f5b124a7d2b317",
-                "sha256:d3cd3b7fb1a060a616bc5bdf355b87716290930f5a0767f02dfe5047cd014b63",
-                "sha256:0f7536c1c12ebd8002699006c7dce00e65e26c72e79f8f55cbafcc916b759341",
-                "sha256:052632d82aaa975e1c5a3616ab9afb64929fe5d4c38f20f71c98f5b903f56f7e",
-                "sha256:179757339e051b99f9a62375fed8f87ffcc4df0eeedb984d20b485bdd089ad08",
+                "sha256:19ac21fe9ca174d5b6be1c70c6f988e9c4c18cdf1e8897598a1fbbcda969df5b",
+                "sha256:69b79fd5dc62d7e6f3dc605ceb167a2c00bb274558f8bfa2786570bba0511ace",
+                "sha256:4b9290828a91d6a1fe20c877c017e4bf08eb2ee927df00ee7046ac69daa435ca",
+                "sha256:18ab6f4e7f5ffa54ee93c6e19b75855ba7ab9ec16671cbd23d0819c509d3eb73",
+                "sha256:d2b052f98769468c7825956ea63b4759e9db4fac8959d29312d904802f610da0",
+                "sha256:a22a88a4a0d197cb745939f382a7898094af0a089fce3173f283651a01da996b",
                 "sha256:c9226d61d3bdbf9f09821b32f5878623b8daaa5fb4f875cb63c199f87a26d57e"
               ]
             },
             {
               "dockerfile": "src/aspnet/3.5/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "3.5-20230912-windowsservercore-ltsc2022",
+                "3.5-20240213-windowsservercore-ltsc2022",
                 "3.5-windowsservercore-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:9f000ec9b01af202393d1d78f17b75a224846e0dd957b6369eee3c941e7d5ed6",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:f01c0fb5236f11cceca67589b6e11c3f685b7556ff89e84373aaf9e0958d9299",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:79287ca99150bd40acb182c33f353d3a8ce14add4764fc1355d4c9efe16a5015",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:943be265ab2fb2526f363f8add0718bf8236a2fd46fd88cada42fd4c44fc46c6",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-12T20:37:27.0727132Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/3.5/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2024-03-12T18:16:38.4487233Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/aspnet/3.5/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:c0cb65f6cfd7e4c74a07cd4b945c5d3ace46bd322828f524b911eec1375c536b",
-                "sha256:89de2891b609a72cb16e088fc6d93c3e6b69eacd3b9ac8b644fb44e0ee463f41",
-                "sha256:baff05a1bfd4d8559777da7683288bc27d1bd83db002b1b6d6077afae6376850",
-                "sha256:36b30ad621894d5c3f1a1fd64f1cd199a5d83192e07a28f0c7ca14695832b15d",
-                "sha256:3e44453d1d7a5af10ae4de382341408e3f12534f2a5514b86194292f565a9d98",
-                "sha256:feca8e06011ab171ad74cda49c7c305e791965aef283d5b7c2b987dd5388e6c7",
+                "sha256:01057953e0d49e7b9681595ecf9df84eb30f01e163034e92e827f002a167b2d6",
+                "sha256:4a8b0f90dd1a9e99547fb33ac76fa1bda6b417be8ecbdccf4d8368bb62b712d7",
+                "sha256:cb10237490c924324871efb834be4574b92e91f2f90e6bef755edf44a433ec5f",
+                "sha256:3be0ac718493b6eb8a79e13be8836b533c6a92d5e71b401227e56b2c1d08101c",
+                "sha256:5073dcbd83eafe0e73dcf2537cb85a24d027bb1b15315d35a3c04049b83a7098",
+                "sha256:a61557bf66429be9509f579104808d2853f8f7aefbd49ef26f5f2a90266c46f5",
                 "sha256:7c76e5cf7755ce357ffb737715b0da6799a50ea468cc252c094f4d915d426b3f"
               ]
             }
@@ -89,8 +89,8 @@
         {
           "productVersion": "4.6.2",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:d283e3dbfe97c8b19872c91cd11f9b03cfb6e40ffa324fe4eb608a9ad990858c",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:a8bb976fc476ab2154ab715e44f75516ab792a654a91a13d9b5c6c6fdcc3a7b1",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.6.2"
             ]
@@ -99,27 +99,27 @@
             {
               "dockerfile": "src/aspnet/4.6.2/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.6.2-20230912-windowsservercore-ltsc2016",
+                "4.6.2-20240312-windowsservercore-ltsc2016",
                 "4.6.2-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:7b77ead89c4ec181721f7db777b56875416875816c443771fbeef1e57c6d670e",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:902b9bd7a3e80b23c9a6d9c2929b71421dc5e7833762f042a22ad6b43219bd25",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:c638a76ef2ccccbc22ae326c86521a408b8ae49824babb31d761aa3c13841070",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:75704ae49635a2d4a9618cd1afbc5a609eae81fb187d54443ae3eb4d64ddc9a7",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:08:29.6047273Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/4.6.2/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T17:57:43.346194Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/aspnet/4.6.2/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:f37ea96b8d23c97fa6e4ba259eb2d1e8d945e4503386612c7c39bb6259df3af8",
-                "sha256:025f7710f3c6486b221d5b9529399298fec761d24a660c25f811e314bcb02792",
-                "sha256:dd4a189f94ffaf1b927d4621d48d1808b74e6dd3eb6b2c52b65e1bbdaca1c56b",
-                "sha256:3ee082c3d80f08529233b2ced73fb2e3aaecbb769ac95827dd02b1b353227642",
-                "sha256:9ecab747ff86393d9b2f27ff26a01272c51f220b25e1dad5914ad9a4240a1d71",
-                "sha256:26239783522cf21352b92cb3132f9144f115fe93a3c11fcc1b47541be38a10fb",
-                "sha256:04122a2158d14de7caafb1c3669dfaa8693614ee7d61147d410c9a9e3905565b",
-                "sha256:f01647f35cfff8b8a47c065a32f20602170936a8a4f5ef09dc4e60132363f7e8",
-                "sha256:2bf736b321ebf0a40c5e45229d7506fdf37a038dce560e31c108ca690a734ffd",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:9fa6a772a7ad8fbc94bf080ec37dbd7cf15158e86c892e209562616ada0a8ceb",
+                "sha256:53b1009bd671f461d10c637f7e4a13b4bbb992a8359111f7550b2f2771e9c5ba",
+                "sha256:bf76c4af49051da44be32dc662c04fa45a17e9be4ae87b487483e0ae5246c45d",
+                "sha256:2bf29831a8ef5d6b0dda05e5ab85039f95df138356b933dd4d014404a2778fe5",
+                "sha256:5665e76e35259a2343b59c6908a16a072daa8ab3e935a2581fc84d8957fe1205",
+                "sha256:66939f6cca9a3aeafa0dae61c2eb19eb34eda40ab3c6192d16538ddf5e065929",
+                "sha256:e5b51d88cad4f70553207edb174c96c04e2848306f016ef3dc499286cff8c6b4",
+                "sha256:cba39ee3c34424668bb9b59bafbf5c2ebceca61318e3c5898494238c01481357",
+                "sha256:9f0fb589f07a263b6ce147d4b165cf83dc224ecb94e3e81625b79556794a786a",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             }
@@ -128,8 +128,8 @@
         {
           "productVersion": "4.7",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:57be7efbb56b51eeb2be76ccfc3a74c51a518016e6ab3953e98c4b4c11da6d81",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:b8f9b43b9f98450d2555198fdcd9232b023647dd7e83c988c896a9eabd475ac6",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.7"
             ]
@@ -138,27 +138,27 @@
             {
               "dockerfile": "src/aspnet/4.7/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.7-20230912-windowsservercore-ltsc2016",
+                "4.7-20240312-windowsservercore-ltsc2016",
                 "4.7-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:3dfd124b437bce401fa968aed4e5b8f4a31b4ff46706b27bbb711a198c876e62",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:65150cdf61e493c89dd6cd9ab1d57d405403786995fd17eddf6b04adccf4fb33",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:31f1b4a2a7724daa831c8f8d37e062f348ce7e9b38c760cc858201a00dabbb90",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:75fc599714d9e156848e57a8471938f7ed8fc75b9ce615c0679e040c10b449c5",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:34:29.3055948Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/4.7/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:20:18.1021392Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/aspnet/4.7/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:369fd27e855bba6fc91ef3c034701fce951aa92e22700e1bdd550620b780a74c",
-                "sha256:ff339851eb04afaf6110359c36954999316e07af1aeda0271fb0641f9dbc52a1",
-                "sha256:83b78ead80e7ae4f942f4c12eb1c803aea850accc6ef3e7b10ebf982410cc101",
-                "sha256:0e8f152d373bc3945e1d655ac84be5255353deabc77fcf19c52c5444b21d4c09",
-                "sha256:a47e77b9ff4f180d19037d3b695459cc5905a21310e17097d0796fe0d45ca7d0",
-                "sha256:dafa9d71c718d4fd3ec893886c915961b982ba0ba647e80d4a78d28370e80c88",
-                "sha256:ca77e24d786a37732ce4c34f1558a6903801a35efc98dc3d864e1e7f19e207f2",
-                "sha256:5a4fc347fe449dafd686422bfe05d2aa6aea591388c5fe815fc633b2ca67e9b3",
-                "sha256:4649412d8ad443bc58a0f4df8cba019c4600476d27e93d65754894ffe9f40cb5",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:f8ad97878ded56e68cb3cbda89757865fea4ca1c6cff5c510207b1f5ef62736e",
+                "sha256:26514258ee25c95b2fac90ac2a456d1fff0e0027f3269b74d773994111c2e37e",
+                "sha256:8575169b021e032bf391d6fef0ed4c1b4ec6f479812099701bb5d4fd8c72905b",
+                "sha256:34f463227d6245c7956d1b212b0307d9b8df6c16386f860517fde50f2f85ca4d",
+                "sha256:d13c01fab2afa9da7da31551cbe39615b7db70e8b0d384e5c0e756941e3d4bdd",
+                "sha256:926b73fbb76042852569b8cba32aa5824085c281762428639cc1689de0cdaac7",
+                "sha256:8756533427eeae48335995f9a5e09988bb6aa233961b8ba22d937b1a52a09572",
+                "sha256:2fd47d31b85619c133c27c2c77ee430c1991cc921a4661896649ad99effeb824",
+                "sha256:012768110f58d47fa29d0f4a28d8f3364bedd7a701312252b4fa3054c387a3b3",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             }
@@ -167,8 +167,8 @@
         {
           "productVersion": "4.7.1",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:073c9b88b2d6232e40a6667aa5f0401dab22c61d7c57dac2fa81a5d6360612fb",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:6df78d49b59ec869da13a563757fe6046a4de23ea97f1c405ef9e06885a92389",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.7.1"
             ]
@@ -177,27 +177,27 @@
             {
               "dockerfile": "src/aspnet/4.7.1/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.7.1-20230912-windowsservercore-ltsc2016",
+                "4.7.1-20240312-windowsservercore-ltsc2016",
                 "4.7.1-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:53b1f36a0bf6b42419d2393990abf6af1cecbb120b1b198407f9e17edd99c3b7",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:e4043872d22fade410496ad77d4e29cc98b921520eb8fd51b39545b817368003",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:b425030910d1b76665057dec0818ace38cc5590403b17ec9646ef4090a196e0e",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:4729627146e14de9ae261a6086b144cb4de37f26750d717ad05c2f6215bbd057",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:23:55.0842959Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/4.7.1/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:05:37.9715584Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/aspnet/4.7.1/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:b40d0cd26e13b325c99a0a592e8b39a1c39977f9bc1dc7b0c3e9c108da2c4297",
-                "sha256:e412db415e6ed8628f60de9387b135555645a17e21009713fe9d14045cc298fa",
-                "sha256:5b93049312a85367ddbbb6e7adfc62ed31207318ba01c68f8959bc9facb711c5",
-                "sha256:2ada49d9c0af079e835034917f6d7384c1405453b601fb389b686c0bb87195c1",
-                "sha256:fb17dc41c17ef5b9fa320d00a8799fef89d1f0340fe16535b0934c973b652e17",
-                "sha256:0878346f2e5e330d2b039a28b65071664d8a3216c7f89a4698d28578671e3b72",
-                "sha256:33fb7d7724c0a239a2a32d77ef556b080796ad883537d129ce9d23185fa7d291",
-                "sha256:8f88fb8bb7534bf62068681efb20d16a082480d2c68338eb426e8a3c3139405d",
-                "sha256:5b9d5ed64d105c9089f82572b271d22b8c27efbad50d348eb7f6e3a9cbceb3c3",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:0ba7f4c7eb4e2b71832c3328e07e3bd347641cd36bd502e97f65c9e94d07808f",
+                "sha256:1fc235f2252b2bd5fdffc7d305494788f42d87f1538b65b827ab00817f1773a7",
+                "sha256:4eed72e24bd3bde94e70860bfe8161a8784d0b9162e6d1e0bc0c74399af15ecc",
+                "sha256:6c5190be3db5bc297cd1efd90e0c0fcb1618fd0df5b2915a896a017d9c55eee5",
+                "sha256:06b8442c653d57de017d125dc470c63775c432cd7e16cd445eaeeb2555ebf2a2",
+                "sha256:be1e4b798e5cd23024bd927786808e679965574dd8e5b559574c74a2a465ec43",
+                "sha256:cc2e6a3275c72953b389b1d46a44067abed79a9fd4788721f5b836f0efd36125",
+                "sha256:641b0798b05dfc0ffcc2a8052d4dd0caff03c5941bbbe84ca46c129ccbac6c51",
+                "sha256:73d13c9a152e40e4de02b6fd0e711cbf4a40d383fd5700f7af91139f197709c0",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             }
@@ -206,8 +206,8 @@
         {
           "productVersion": "4.7.2",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:7e8b2a14c88fba4f817581a27de993071bf9b33f6715c1c586aa2dad039954c8",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:e9584a203084c58de7916b54c3e11a2b0a804c4182fc82fe293dac79c2f374fe",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.7.2"
             ]
@@ -216,54 +216,54 @@
             {
               "dockerfile": "src/aspnet/4.7.2/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.7.2-20230912-windowsservercore-ltsc2016",
+                "4.7.2-20240312-windowsservercore-ltsc2016",
                 "4.7.2-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:fba55a9f46550f298a95c9ab871534906597f6d095a1d9573fbc8731593ad3c5",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:f144e877c2a62d174781d9b15894caecc92ae97614d0bc2ac6bde9d3228f2f23",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:529534d9f4f3c0f5cbffd23e4f32ebdd7d252f6d07e5c1e65ed8df09e557719d",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:c3b9b7ef780b5e0be111bb7636a2ea5a880f6b992d89b012959b87245d507d73",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:32:02.8124244Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/4.7.2/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:06:35.0980725Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/aspnet/4.7.2/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:ae99ddc77e8ddb4edca3f5fd725f21dd9925dfbfeb8bffccd66371e04c8bddea",
-                "sha256:d544b03d6b691f45aa5046c3c9844a7064f2be0d4008381718d52b6e77883e99",
-                "sha256:4ad2a1eb8d67381b85cbaf3814734411dbae1c768e997904b46f6f3dd8f06b54",
-                "sha256:5a96a0d9c84a565ee897ff564ebbd6170e2852159d73d2ed632e2ea1e66c78cc",
-                "sha256:e1fb02b46e117232fbc4ce65e4fe06b988b2b20c7f5a9cd2f5b104a84900f0d5",
-                "sha256:796a81f19fdd6d3cd091dfacdc0dcab4b44e5b39d19da4f4d6035295499ab583",
-                "sha256:e2232e53b50a0b282f746ee91d1721787befe51467b88db46dc8f07ea71bb37c",
-                "sha256:8678262e3722e98db6ee21c7c0f30c13fabdb809aa6836c3756c9d05ff4e7b17",
-                "sha256:01d489d03870ec790a1e16de726bfb61a8d9d255761da85db0305893bd4dcfb1",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:40df288aa2a4e126414e5715da008d146a8142606b4930b94e53128bebb43a5d",
+                "sha256:de3d4596094458654edd11dac4e2c1d237aede47fcc385d79039df9f3585c4d9",
+                "sha256:ba2426b55ef9ab02e4520d470ff16ef2b17b02493fe2a17282748e96a1d41ef0",
+                "sha256:15913c22e593bd52be1d92f828816e40895accdbb4638d6d864379f692ac61e2",
+                "sha256:78052109a140b7a05fa9e9f864f606b6fcea5ced2e349e22b5800d8b4431f559",
+                "sha256:2075e1384e58b87e40adb95f50729d0686a59908921a0988a5391ada3030a7f0",
+                "sha256:4bdc669042cbb3d7a72c02f596a75c164c7b586895b0b2bab7b76f96d5b5432d",
+                "sha256:11a6a1492a6b44b627ab02a205bcd78956d16e72c74049e0e99b471277f19ddc",
+                "sha256:10b88f27f81b5f066568729657866819b84086f000237417eab030c0f0e8c508",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             },
             {
               "dockerfile": "src/aspnet/4.7.2/windowsservercore-ltsc2019/Dockerfile",
               "simpleTags": [
-                "4.7.2-20230912-windowsservercore-ltsc2019",
+                "4.7.2-20240213-windowsservercore-ltsc2019",
                 "4.7.2-windowsservercore-ltsc2019"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:8b78edce1511c0effd42be03a2cc168cec8f8dbd29eef0a745d6e88d2edd1de7",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:7b02599fdbc7cfcbe7726741af0c5a29092d3d8da28d8b5740a0b40b95e8e085",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:b76a6bb90a02feb7c502278448d08a1b6ae69ba4c273671d487c114267160e89",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:eb4262aa8950709a6da35aeb61f6be885d2227b22d8d5667a295c3be186bdfa4",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2023-09-12T19:50:35.4613163Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/4.7.2/windowsservercore-ltsc2019/Dockerfile",
+              "created": "2024-03-12T17:52:34.3293218Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/aspnet/4.7.2/windowsservercore-ltsc2019/Dockerfile",
               "layers": [
-                "sha256:0eddfcd5dc414b92d54ac17964c72f19ecf9055e01fca4558511a5b4c9e86166",
-                "sha256:6540aec0fedd169a9b0c9ed4daad5823a2c46f92a8f0c99065d22115980cb23c",
-                "sha256:3264a530c47fae616557b45701827f96bb5d74bf31ba10adaaaa028392ff8345",
-                "sha256:17404f1af4cdffc9849007eca90b34a6f1ac63d3be1192f353d453c3d27c4645",
-                "sha256:85fa39b1325d0da924ba7c98d77a6b2d27a0ff087a212ceda3257ca97777e39c",
-                "sha256:9b31165ec6d753a98a2a5516a0434f74d2ff176653b5b1c8b0698fcf00a19377",
-                "sha256:fc597faec0020b427759c8e6443335deee02cb9a585575fb37dd5b9f64eaa651",
-                "sha256:399157cea5ced265b6dc5fbbce81d20390fb7e2d1d76a3f29ddbbd31f4ee7e88",
-                "sha256:3ab599954c62eb3a7c940a031cbaf367effaf7a7c3a1587c5ce30ef055f31d5b",
-                "sha256:179757339e051b99f9a62375fed8f87ffcc4df0eeedb984d20b485bdd089ad08",
+                "sha256:e13fb41cac8b413972beb29c61b65bad3f8cbfbb695fdda1f7146bee4e905a7a",
+                "sha256:40ea1483e846aae1006967c07e73d642b127c361c64a448f0dce8a40d47bdcb3",
+                "sha256:38241a5a351355ffa610559676a789d29696697e47d0444b83acb2b968907602",
+                "sha256:40c539f7e2d60a18e9863ec995b427639aa5745f2b01437ba4dfae498b08e3f6",
+                "sha256:c2f7ceb5085bb89fe160f8f8e1cb6f1b1809e5f66452464a4285309a5791b06e",
+                "sha256:7f5bb460b84d649b3304b002f86b4407d09eb4848d80fd62a96d897983e7a40e",
+                "sha256:e8411079eee602be180e649cbcc23c6b57edfdc9f66d23527cc1c906714f3b87",
+                "sha256:54b7b54a9d2e43dbd287a68ef8bff47521d15f306f2a3511f7ba29e11f84a8d8",
+                "sha256:0236a20efef20100c75ed423cc65e66aba5934a8f3a1c491bb2a0fe12b2ead52",
+                "sha256:a22a88a4a0d197cb745939f382a7898094af0a089fce3173f283651a01da996b",
                 "sha256:c9226d61d3bdbf9f09821b32f5878623b8daaa5fb4f875cb63c199f87a26d57e"
               ]
             }
@@ -272,8 +272,8 @@
         {
           "productVersion": "4.8",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:92af41ebe36781c31cdee242898a1ba45603b70d0e5c2a0bc2db4d653ba534b0",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:0cca5cc473168ec995fbdcfeb8f474835b759510142a4ec5868aad6ac85dbab5",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.8",
               "latest"
@@ -283,80 +283,80 @@
             {
               "dockerfile": "src/aspnet/4.8/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2016",
+                "4.8-20240312-windowsservercore-ltsc2016",
                 "4.8-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:eebecec09400586a1f2ab27a7d540aec01741aafc97d86cc1c55f0cd2d45f9ee",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:2b95267492012c4aeb6fd164eb8d96e36c742ac76fbf0831a3af1d2f26cc7d48",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:3fe0582ed73c98eb2043fb17926e9f7ba8841ce570c70a5712ad27b96e0e85b5",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:14bb97866c5ae5e8e4c1fd00847be84ee1afd50904fca5971ee2416c10913060",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:50:39.8442214Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/4.8/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:12:16.7227507Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/aspnet/4.8/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:2c51d0db3bedf8195357f053086521ffd061027412231d16ad467ae2a80ab5b5",
-                "sha256:031530be56c13f0466165974021b817373ceffbef1daabe8e4f50e94ac07c8a6",
-                "sha256:310148a0f11136479e0b050733d35297bba16357a39c9a38bd8257c3d876e79e",
-                "sha256:71ad2763b2f3485aea8991f97bf9ecf6bec85779ad594b3391b919700bc35ebe",
-                "sha256:be1988a9c8d08b4be4df14c974e9bd0aa699a982dbea0be28ed6f735b8d2e13f",
-                "sha256:c6f5f847f006ab3fa50ace268f7e523be73e8cb713f03c91e0dface9cf475bb6",
-                "sha256:7cb2d3e78700685b3ef7bee1aad36218520df019a6d191b6767aa7e25a0ee557",
-                "sha256:01de08b916294002674a74c135b1aea804d08c99b2b8ad92bf181c5816f4f83f",
-                "sha256:b831757ccdcaba2739a45413d2b379bd26c42bdd460b67a7fc7659a5860d4ceb",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:1cbdbcbcc10d9de7283fbc120265512c1be30135c5f88a4f4c866c162e7e70e3",
+                "sha256:60f682c74ed4894877e2c23182a22a51003e45dd0fd6eec376758cd173331ba7",
+                "sha256:c6070b8a6525aea477b7e20f833af5fda6706c8b61a99fe8c4a588c55e5a4862",
+                "sha256:1ac81e3048b48532cb7f522b50caea709f435d351b01935f1318b3f8c0a9e69d",
+                "sha256:e11c16eb9deb1b89d51fe7ad93dd264855cecb9e82a2f3535f12d04dc3a51027",
+                "sha256:fb1a2eabc311efbfb763609933a43504814cc331e03ea668e1f0afbd8c262747",
+                "sha256:578a0761b36d1716e25246496004f1d1412e32bad1c5e087f1f54452479d54f2",
+                "sha256:9555b68051230df87f75025f2bcb3b299e4039ea6dbe43b72ab3bbbf8902fd9a",
+                "sha256:97eccb118da5f258553d97de3d27f3ad93f80cdee930203e623150634663f13b",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             },
             {
               "dockerfile": "src/aspnet/4.8/windowsservercore-ltsc2019/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2019",
+                "4.8-20240213-windowsservercore-ltsc2019",
                 "4.8-windowsservercore-ltsc2019"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:604f8ccbeebb10fc9e6ffcea3402459a7ed4b30ff0a39f21337696d5782ab52a",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:bf0217fdc494f804953ec59b004fcd52c111e38d79c8daef35c2f41af5a63b87",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:ac14bbc4ac85bb5d2891ea7e7d39316c6df63b749ef6447644289bb09455951c",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:78dac4e522f121788fbc834f3ccb6b7f7b19c15a3fbdcbfae60a9b3eee4537c8",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2023-09-12T20:16:57.1262988Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/4.8/windowsservercore-ltsc2019/Dockerfile",
+              "created": "2024-03-12T18:08:37.3885507Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/aspnet/4.8/windowsservercore-ltsc2019/Dockerfile",
               "layers": [
-                "sha256:2c4cc5b5d22fbb1c9dac01c0e860510a6ba38ce7da217b1878443efae1de8a44",
-                "sha256:4c2b53b9dc114a45a3b35fd1db8ef7f2cd09b126869862a35419d42d22fc277f",
-                "sha256:1d15cb5eea18bc4ed1810345dd28679f1ae9c56ae7e83ca16bef95c3e2ecccb1",
-                "sha256:4e3be8b74714cb72d42fbe1d9e9f115fd600730c3d50a2551715c181cbf42ed1",
-                "sha256:ea577f325e5d6d98f5817b74acd03503a3190179da170efebf545eddf3ecbd82",
-                "sha256:73670f67b22ed8c7e7857f21a3cc2470d3c274ebb7b3c7dbd5c4731aaa2489a4",
-                "sha256:ca6a874ad8228a38b68659c3afcf80eb63919a49635af1ad268b8eea463789e1",
-                "sha256:1bd84db35466d7b1fd592a88123e78d5d04bb1d980dd866651b40b0b872ca379",
-                "sha256:249005b622b504a8c4094503461c4ec1101b93eb0fc83e0aeb5031dc1a8ce243",
-                "sha256:179757339e051b99f9a62375fed8f87ffcc4df0eeedb984d20b485bdd089ad08",
+                "sha256:12c84c9803fb8a6b69f58b43a4615fd42ea5ec45468ca24b28e0c8235fecefd5",
+                "sha256:605b4bc546f64645bf31140c9a06e717c814b5a0fbcf1385b1c4e2b613140019",
+                "sha256:9dd1aed021e9949904c0508d230b49dbde505274761c34347bb0bc127e9bf737",
+                "sha256:0a33ff31c181cad4d6739107aeca2751f211e4c708f8a7f4a1aacb28918333a2",
+                "sha256:0fa68d47c8dbb1c8a39459f6a404cab44a5a8a253eec75cf35172c43fceae4aa",
+                "sha256:f93b995db9ba7a91c84338e5ea46223eabb7038b6bb5453d6ce59594aac4371d",
+                "sha256:c6db04609503db0402829a8043de325c8fc7f53b6873ed5c1adace8e14e70ca3",
+                "sha256:c0c0fc81f143a5a9d199f3910b65f143a217c5c60b2c1aa39e50b6886db62405",
+                "sha256:19968d48654c0839d96359ec3ef371f19af7852892160f57062c104f1a26b642",
+                "sha256:a22a88a4a0d197cb745939f382a7898094af0a089fce3173f283651a01da996b",
                 "sha256:c9226d61d3bdbf9f09821b32f5878623b8daaa5fb4f875cb63c199f87a26d57e"
               ]
             },
             {
               "dockerfile": "src/aspnet/4.8/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2022",
+                "4.8-20240213-windowsservercore-ltsc2022",
                 "4.8-windowsservercore-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:5aa61257ffbd2dbc534f2591d70dbc56fad6e8ca363d48f5aa4f2c2b2ab64821",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:49bb37677c8d61281f15a49d3291baff4f5583e6cf5846fc4cee7527e59ff1c5",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:860454405335b1f0dd84a8b5fd2bb3a5e0289cc78a71d4efd4055eefaab13653",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:4d29a1431d9bc6b7ec0f1b64289a8810d25790f86abe55050729a6485c8cf1d9",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-12T20:20:14.7339998Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/4.8/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2024-03-12T18:12:27.7244849Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/aspnet/4.8/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:f4d162157638f4bdbec4ba07274b3ff7f969bace198c0e5db49efe22cdc4a83f",
-                "sha256:812965866fd6c7f57e9ae42664f1bc1ff55c1f5bc683038dcc72eaf2b67d5f68",
-                "sha256:78e5b60bc648b83a077438be1b83b32050e0b3b6d40b9fd799b43677f6343081",
-                "sha256:99db939f9c2e1bd2d0b53bb1146fa6915b1543eacff7253b3ee476ad3b4334ca",
-                "sha256:a8f3c8abce5aab0896b98f8fe395b883da04c370be9e9c6fbc18006bc34d2b6a",
-                "sha256:f848cd6dded02aa6f586bb916c7d33e9a121129270e91d2fc9be78586d21e2c6",
-                "sha256:10362d0d37e42c19666677991f4ac8a7f544fd93669154a254bc0453c05a0df7",
-                "sha256:7a4b55fc6efedeab7fa9112ea7c1782a910bf041e05e66d8e6225fca37bea69e",
-                "sha256:feca8e06011ab171ad74cda49c7c305e791965aef283d5b7c2b987dd5388e6c7",
+                "sha256:610c5522d3642fb73feea7ed14fc9de7039100fbecc33fea62b09bc3a087193e",
+                "sha256:0bc488ee568cc9be96db4fda964a1e3abe5a1d561a56b486716b3738816ef06e",
+                "sha256:20e062c993ea0a10c45bf1531c71e68f6be6afceef8008133675bdc93a979b09",
+                "sha256:82f2e2628718c5686901901c1936254190b68833e7e7d55f8a2963db6f70405a",
+                "sha256:a983fdc8b6afdf94c1ca0b3b1a90d6c719c093f7d30624174946d75aafcf16a8",
+                "sha256:461e155a114fd10742fce733328a2c2ce447e06b211fa9307c345f6006d75b72",
+                "sha256:4ed1ee36e9176a3ca2ddd6444f725da9157b5f4ad8baf3ead931a503f2a83430",
+                "sha256:4e27dceaede8af1d38f5a2eaf42c1c36001bb07406e4e24744001e92b4f6ed55",
+                "sha256:a61557bf66429be9509f579104808d2853f8f7aefbd49ef26f5f2a90266c46f5",
                 "sha256:7c76e5cf7755ce357ffb737715b0da6799a50ea468cc252c094f4d915d426b3f"
               ]
             }
@@ -365,8 +365,8 @@
         {
           "productVersion": "4.8.1",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:b0d2a85c949f68f539096623b93354af974558052ea7049608b33f534433d4b3",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:dd45560ada4dd96372b93c3708d4b5abada5c594aec8392dfb7def91df957b83",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.8.1"
             ]
@@ -375,26 +375,26 @@
             {
               "dockerfile": "src/aspnet/4.8.1/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "4.8.1-20230912-windowsservercore-ltsc2022",
+                "4.8.1-20240213-windowsservercore-ltsc2022",
                 "4.8.1-windowsservercore-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:112822e1b1386fd39a11a6e5d6ed3bafebffc986f8e0f106675827fa001f9c2b",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:a467db4e71dee3b01fcf23c78540e398d9884c6c1365f3469658621db2c296d6",
+              "digest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:284cf40c05f4a00747e17721457067e12cb16f14f4c131a6ddfcb9b3b74d8a29",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:57c632f219b8e922322152877cc1afc7323824898888e2ae45f786e4eda3eed5",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-12T20:19:37.6457151Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/aspnet/4.8.1/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2024-03-12T18:15:46.1844578Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/aspnet/4.8.1/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:3010278b48529999c19f86bee2c524cde3bef8196b646503d38a0e0998d5aaff",
-                "sha256:2eaa05c56a1fea1126424523695c777e7d08b2a180b0a9d28c50915e88a254f8",
-                "sha256:bb81a8694efeac7a3c59ebfcf280fbb485838cdd6ab07bb5ad858466bd2de28c",
-                "sha256:4ca27eb435fa90944e0229e55197c99a8a8423b3e5aa036b0ec8b42e176afd4f",
-                "sha256:dbdb5cbeb53f7aac04f360ac6b6f7a26c86135ec2b0e5ffe1eb03b051ac6c19d",
-                "sha256:106b6afad403b8a1ec8e227be20e37e775de289b38fcea76b1d99ec467c4a6e7",
-                "sha256:05d8d0a2b3bcd1718d51aca942484db67103f878269745eaebb24d56069e5bc5",
-                "sha256:de4c3a54398d8b8a843f7b52233a068545c6b8d030d8052b8f67461b33498f10",
-                "sha256:feca8e06011ab171ad74cda49c7c305e791965aef283d5b7c2b987dd5388e6c7",
+                "sha256:2c879af5f81072feddee56f320eb8db776f8419cd3ba5f7ef399a988454defae",
+                "sha256:8d80605bc6990e6ff6bd234a7318b439a66d9d9de99b0af20d973ff29a84f6ca",
+                "sha256:7bc92a5d2e24c33672507ec3ebd236ca3d54a97f7bc5ad0652f2b432d21cce14",
+                "sha256:48f3a9688fe28b2859fbc516583fe8fbc8195d874a05aa3378b6fbc1fd490a6e",
+                "sha256:9dfbcc124fea5d632d8c1e709a4506b84a776a3b188bf28dc7328ceea3e1634a",
+                "sha256:e57f6c2a5ab1e2abd4549e5a0792969273a4d57e385c98cd5c0b398035c6b391",
+                "sha256:9cc72693d51a6430fa202eb244cdcbc19324348def5c77484de11ab93fc93380",
+                "sha256:e3b5fec49f9d2c68d0854fa4f4250c267a16a4a0a163abd4f20c5fa437dd1e68",
+                "sha256:a61557bf66429be9509f579104808d2853f8f7aefbd49ef26f5f2a90266c46f5",
                 "sha256:7c76e5cf7755ce357ffb737715b0da6799a50ea468cc252c094f4d915d426b3f"
               ]
             }
@@ -408,8 +408,8 @@
         {
           "productVersion": "3.5",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:2e858c75a67917004c41f601d34d002304a6cf7c20f345b84021bbc82cfe759b",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:591e4e71369ca0cf9e284ab6df3b9da8530ae5b42760ecfdbba12b0469165b0b",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "3.5",
               "4.8-3.5"
@@ -419,60 +419,60 @@
             {
               "dockerfile": "src/runtime/3.5/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "3.5-20230912-windowsservercore-ltsc2016",
+                "3.5-20240312-windowsservercore-ltsc2016",
                 "3.5-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:f83742c847a776d408f004567e56d66dfed2184bea6ab0fbf752943728099fc0",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c8d4e69c3f05c89449270ec0190c48673e00237f6e7669b0836150955864d153",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:b4ab8c3c5920758b6cc90dcc4fa9f066bc182b6d8346cc7b54c520fb736f3f06",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:611694b3ec88d504542f9ade126ad9191f148c92209eb5d9e558eb0d131ab51d",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:32:42.5553771Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/runtime/3.5/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:04:41.8457619Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/runtime/3.5/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:ca5e36ad86ee36279caede2de81f5867ae2e72f303e3dd41670aa82f9f3192eb",
-                "sha256:7aeb9fd47413f524cff7dc2dfc2e937e0b91ff413ae0ec8661fff82b78a47875",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:1fa74af8c2e6a621831677d399eda6d671b53361240b39eae13da8febc1911a6",
+                "sha256:1c24695d17f49cb76e3a2ab2679e11634b765c87fe848df9c53fa3448e6bebec",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             },
             {
               "dockerfile": "src/runtime/3.5/windowsservercore-ltsc2019/Dockerfile",
               "simpleTags": [
-                "3.5-20230912-windowsservercore-ltsc2019",
+                "3.5-20240213-windowsservercore-ltsc2019",
                 "3.5-windowsservercore-ltsc2019"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:b4b9c4d6c2333089c3227d328f4b1785766fc1c7a4d71221a98e92b39499cc6a",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c1567530b5b09a723212eb8d2f4864685e91ce9637c443edaf249081a830cd95",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:dbfddebe67306d688992565b0c4b3117e16103985a17dbf75567f28fa3ac128c",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:101391df44c514628e77c021eacc5182ebd2766bb97161ccf51d4621774f7fdc",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2023-09-12T19:52:57.928169Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/runtime/3.5/windowsservercore-ltsc2019/Dockerfile",
+              "created": "2024-03-12T17:51:04.258682Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/runtime/3.5/windowsservercore-ltsc2019/Dockerfile",
               "layers": [
-                "sha256:0f7536c1c12ebd8002699006c7dce00e65e26c72e79f8f55cbafcc916b759341",
-                "sha256:052632d82aaa975e1c5a3616ab9afb64929fe5d4c38f20f71c98f5b903f56f7e",
-                "sha256:179757339e051b99f9a62375fed8f87ffcc4df0eeedb984d20b485bdd089ad08",
+                "sha256:18ab6f4e7f5ffa54ee93c6e19b75855ba7ab9ec16671cbd23d0819c509d3eb73",
+                "sha256:d2b052f98769468c7825956ea63b4759e9db4fac8959d29312d904802f610da0",
+                "sha256:a22a88a4a0d197cb745939f382a7898094af0a089fce3173f283651a01da996b",
                 "sha256:c9226d61d3bdbf9f09821b32f5878623b8daaa5fb4f875cb63c199f87a26d57e"
               ]
             },
             {
               "dockerfile": "src/runtime/3.5/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "3.5-20230912-windowsservercore-ltsc2022",
+                "3.5-20240213-windowsservercore-ltsc2022",
                 "3.5-windowsservercore-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:f01c0fb5236f11cceca67589b6e11c3f685b7556ff89e84373aaf9e0958d9299",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:8ca7dcee3e20c453e465d4810d0475732af57ace65f4e589420784789732993b",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:943be265ab2fb2526f363f8add0718bf8236a2fd46fd88cada42fd4c44fc46c6",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:1aedfc9c9e20f24d904da0c1e1405833bfb8a298bcd9b44ceaf4dcbfd0c9848c",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-12T20:18:00.351572Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/cbf8f5a04d8acd8fe57ea78cd94faa132f59a9ae/src/runtime/3.5/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2024-03-12T17:56:02.3179014Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/runtime/3.5/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:36b30ad621894d5c3f1a1fd64f1cd199a5d83192e07a28f0c7ca14695832b15d",
-                "sha256:3e44453d1d7a5af10ae4de382341408e3f12534f2a5514b86194292f565a9d98",
-                "sha256:feca8e06011ab171ad74cda49c7c305e791965aef283d5b7c2b987dd5388e6c7",
+                "sha256:3be0ac718493b6eb8a79e13be8836b533c6a92d5e71b401227e56b2c1d08101c",
+                "sha256:5073dcbd83eafe0e73dcf2537cb85a24d027bb1b15315d35a3c04049b83a7098",
+                "sha256:a61557bf66429be9509f579104808d2853f8f7aefbd49ef26f5f2a90266c46f5",
                 "sha256:7c76e5cf7755ce357ffb737715b0da6799a50ea468cc252c094f4d915d426b3f"
               ]
             }
@@ -481,8 +481,8 @@
         {
           "productVersion": "4.6.2",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:e0a6e339c19dc4073a3f61f3e9c8c42b89839e09a05f49333f59f09f4e3e8718",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:a937829d688a17ee6f94ae0e19390f2cccad0f761b32d55764e169fee94c3702",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.6.2"
             ]
@@ -491,20 +491,20 @@
             {
               "dockerfile": "src/runtime/4.6.2/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.6.2-20230912-windowsservercore-ltsc2016",
+                "4.6.2-20240312-windowsservercore-ltsc2016",
                 "4.6.2-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:902b9bd7a3e80b23c9a6d9c2929b71421dc5e7833762f042a22ad6b43219bd25",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c8d4e69c3f05c89449270ec0190c48673e00237f6e7669b0836150955864d153",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:75704ae49635a2d4a9618cd1afbc5a609eae81fb187d54443ae3eb4d64ddc9a7",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:611694b3ec88d504542f9ade126ad9191f148c92209eb5d9e558eb0d131ab51d",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:04:21.5079981Z",
+              "created": "2024-03-12T17:54:22.7895941Z",
               "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/66cfc9536db13fa27b82c2bc33fd916e5f583366/src/runtime/4.6.2/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:f01647f35cfff8b8a47c065a32f20602170936a8a4f5ef09dc4e60132363f7e8",
-                "sha256:2bf736b321ebf0a40c5e45229d7506fdf37a038dce560e31c108ca690a734ffd",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:cba39ee3c34424668bb9b59bafbf5c2ebceca61318e3c5898494238c01481357",
+                "sha256:9f0fb589f07a263b6ce147d4b165cf83dc224ecb94e3e81625b79556794a786a",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             }
@@ -513,8 +513,8 @@
         {
           "productVersion": "4.7",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:80c752054046a495884b9266818ea6d1d9addc55a8e8b0fe877ce8eb2533d419",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:ba32602f1426d8330eed6bdae3f93431cff1484c80f0a4244710f966ccf526bc",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.7"
             ]
@@ -523,20 +523,20 @@
             {
               "dockerfile": "src/runtime/4.7/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.7-20230912-windowsservercore-ltsc2016",
+                "4.7-20240312-windowsservercore-ltsc2016",
                 "4.7-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:65150cdf61e493c89dd6cd9ab1d57d405403786995fd17eddf6b04adccf4fb33",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c8d4e69c3f05c89449270ec0190c48673e00237f6e7669b0836150955864d153",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:75fc599714d9e156848e57a8471938f7ed8fc75b9ce615c0679e040c10b449c5",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:611694b3ec88d504542f9ade126ad9191f148c92209eb5d9e558eb0d131ab51d",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:30:23.4675643Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/runtime/4.7/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:16:17.082544Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/runtime/4.7/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:5a4fc347fe449dafd686422bfe05d2aa6aea591388c5fe815fc633b2ca67e9b3",
-                "sha256:4649412d8ad443bc58a0f4df8cba019c4600476d27e93d65754894ffe9f40cb5",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:2fd47d31b85619c133c27c2c77ee430c1991cc921a4661896649ad99effeb824",
+                "sha256:012768110f58d47fa29d0f4a28d8f3364bedd7a701312252b4fa3054c387a3b3",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             }
@@ -545,8 +545,8 @@
         {
           "productVersion": "4.7.1",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:c779b51ed2001542e2ebfed1e4eb51776d9c12c80b598861894aeb7685ce5dbd",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:b3cd7f0dbbc8ce9e3e0e07b51cbc4f6dfd4b7d12f1d22735b366c69d29523ca1",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.7.1"
             ]
@@ -555,20 +555,20 @@
             {
               "dockerfile": "src/runtime/4.7.1/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.7.1-20230912-windowsservercore-ltsc2016",
+                "4.7.1-20240312-windowsservercore-ltsc2016",
                 "4.7.1-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:e4043872d22fade410496ad77d4e29cc98b921520eb8fd51b39545b817368003",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c8d4e69c3f05c89449270ec0190c48673e00237f6e7669b0836150955864d153",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:4729627146e14de9ae261a6086b144cb4de37f26750d717ad05c2f6215bbd057",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:611694b3ec88d504542f9ade126ad9191f148c92209eb5d9e558eb0d131ab51d",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:20:24.3730679Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/runtime/4.7.1/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:02:03.9692396Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/runtime/4.7.1/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:8f88fb8bb7534bf62068681efb20d16a082480d2c68338eb426e8a3c3139405d",
-                "sha256:5b9d5ed64d105c9089f82572b271d22b8c27efbad50d348eb7f6e3a9cbceb3c3",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:641b0798b05dfc0ffcc2a8052d4dd0caff03c5941bbbe84ca46c129ccbac6c51",
+                "sha256:73d13c9a152e40e4de02b6fd0e711cbf4a40d383fd5700f7af91139f197709c0",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             }
@@ -577,8 +577,8 @@
         {
           "productVersion": "4.7.2",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:37ffd95e0f070923a842dad27ec95b69faadb0436624e3168fb044f7fdb451a7",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:d8c3fa90d4fcb2e6b8dddfb508a1dbaac0eb66940d6ca92db87162a3eef39994",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.7.2"
             ]
@@ -587,40 +587,40 @@
             {
               "dockerfile": "src/runtime/4.7.2/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.7.2-20230912-windowsservercore-ltsc2016",
+                "4.7.2-20240312-windowsservercore-ltsc2016",
                 "4.7.2-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:f144e877c2a62d174781d9b15894caecc92ae97614d0bc2ac6bde9d3228f2f23",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c8d4e69c3f05c89449270ec0190c48673e00237f6e7669b0836150955864d153",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:c3b9b7ef780b5e0be111bb7636a2ea5a880f6b992d89b012959b87245d507d73",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:611694b3ec88d504542f9ade126ad9191f148c92209eb5d9e558eb0d131ab51d",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:28:01.6782014Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/runtime/4.7.2/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:03:18.8540268Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/runtime/4.7.2/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:8678262e3722e98db6ee21c7c0f30c13fabdb809aa6836c3756c9d05ff4e7b17",
-                "sha256:01d489d03870ec790a1e16de726bfb61a8d9d255761da85db0305893bd4dcfb1",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:11a6a1492a6b44b627ab02a205bcd78956d16e72c74049e0e99b471277f19ddc",
+                "sha256:10b88f27f81b5f066568729657866819b84086f000237417eab030c0f0e8c508",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             },
             {
               "dockerfile": "src/runtime/4.7.2/windowsservercore-ltsc2019/Dockerfile",
               "simpleTags": [
-                "4.7.2-20230912-windowsservercore-ltsc2019",
+                "4.7.2-20240213-windowsservercore-ltsc2019",
                 "4.7.2-windowsservercore-ltsc2019"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:7b02599fdbc7cfcbe7726741af0c5a29092d3d8da28d8b5740a0b40b95e8e085",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c1567530b5b09a723212eb8d2f4864685e91ce9637c443edaf249081a830cd95",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:eb4262aa8950709a6da35aeb61f6be885d2227b22d8d5667a295c3be186bdfa4",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:101391df44c514628e77c021eacc5182ebd2766bb97161ccf51d4621774f7fdc",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2023-09-12T19:46:54.222567Z",
+              "created": "2024-03-12T17:49:00.7380847Z",
               "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/d4095f39459c58f1951abbf21cf0a2b95458fac4/src/runtime/4.7.2/windowsservercore-ltsc2019/Dockerfile",
               "layers": [
-                "sha256:399157cea5ced265b6dc5fbbce81d20390fb7e2d1d76a3f29ddbbd31f4ee7e88",
-                "sha256:3ab599954c62eb3a7c940a031cbaf367effaf7a7c3a1587c5ce30ef055f31d5b",
-                "sha256:179757339e051b99f9a62375fed8f87ffcc4df0eeedb984d20b485bdd089ad08",
+                "sha256:54b7b54a9d2e43dbd287a68ef8bff47521d15f306f2a3511f7ba29e11f84a8d8",
+                "sha256:0236a20efef20100c75ed423cc65e66aba5934a8f3a1c491bb2a0fe12b2ead52",
+                "sha256:a22a88a4a0d197cb745939f382a7898094af0a089fce3173f283651a01da996b",
                 "sha256:c9226d61d3bdbf9f09821b32f5878623b8daaa5fb4f875cb63c199f87a26d57e"
               ]
             }
@@ -629,8 +629,8 @@
         {
           "productVersion": "4.8",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:d3361fac56f39abdd465cfd859806b3501e567bd314ec51f5b370a7bc4ac82da",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:98aafbb31ee230336f71f85a639bbbb6425ee2d6aa6fe9f619f4507a3f383426",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.8",
               "latest"
@@ -640,60 +640,60 @@
             {
               "dockerfile": "src/runtime/4.8/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2016",
+                "4.8-20240312-windowsservercore-ltsc2016",
                 "4.8-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:2b95267492012c4aeb6fd164eb8d96e36c742ac76fbf0831a3af1d2f26cc7d48",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c8d4e69c3f05c89449270ec0190c48673e00237f6e7669b0836150955864d153",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:14bb97866c5ae5e8e4c1fd00847be84ee1afd50904fca5971ee2416c10913060",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:611694b3ec88d504542f9ade126ad9191f148c92209eb5d9e558eb0d131ab51d",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:31:27.5924778Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/cbf8f5a04d8acd8fe57ea78cd94faa132f59a9ae/src/runtime/4.8/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T17:57:47.4217023Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/runtime/4.8/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:01de08b916294002674a74c135b1aea804d08c99b2b8ad92bf181c5816f4f83f",
-                "sha256:b831757ccdcaba2739a45413d2b379bd26c42bdd460b67a7fc7659a5860d4ceb",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:9555b68051230df87f75025f2bcb3b299e4039ea6dbe43b72ab3bbbf8902fd9a",
+                "sha256:97eccb118da5f258553d97de3d27f3ad93f80cdee930203e623150634663f13b",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             },
             {
               "dockerfile": "src/runtime/4.8/windowsservercore-ltsc2019/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2019",
+                "4.8-20240213-windowsservercore-ltsc2019",
                 "4.8-windowsservercore-ltsc2019"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:bf0217fdc494f804953ec59b004fcd52c111e38d79c8daef35c2f41af5a63b87",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c1567530b5b09a723212eb8d2f4864685e91ce9637c443edaf249081a830cd95",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:78dac4e522f121788fbc834f3ccb6b7f7b19c15a3fbdcbfae60a9b3eee4537c8",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:101391df44c514628e77c021eacc5182ebd2766bb97161ccf51d4621774f7fdc",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2023-09-12T20:02:51.3438639Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/cbf8f5a04d8acd8fe57ea78cd94faa132f59a9ae/src/runtime/4.8/windowsservercore-ltsc2019/Dockerfile",
+              "created": "2024-03-12T17:53:59.8756581Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/runtime/4.8/windowsservercore-ltsc2019/Dockerfile",
               "layers": [
-                "sha256:1bd84db35466d7b1fd592a88123e78d5d04bb1d980dd866651b40b0b872ca379",
-                "sha256:249005b622b504a8c4094503461c4ec1101b93eb0fc83e0aeb5031dc1a8ce243",
-                "sha256:179757339e051b99f9a62375fed8f87ffcc4df0eeedb984d20b485bdd089ad08",
+                "sha256:c0c0fc81f143a5a9d199f3910b65f143a217c5c60b2c1aa39e50b6886db62405",
+                "sha256:19968d48654c0839d96359ec3ef371f19af7852892160f57062c104f1a26b642",
+                "sha256:a22a88a4a0d197cb745939f382a7898094af0a089fce3173f283651a01da996b",
                 "sha256:c9226d61d3bdbf9f09821b32f5878623b8daaa5fb4f875cb63c199f87a26d57e"
               ]
             },
             {
               "dockerfile": "src/runtime/4.8/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2022",
+                "4.8-20240213-windowsservercore-ltsc2022",
                 "4.8-windowsservercore-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:49bb37677c8d61281f15a49d3291baff4f5583e6cf5846fc4cee7527e59ff1c5",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:8ca7dcee3e20c453e465d4810d0475732af57ace65f4e589420784789732993b",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:4d29a1431d9bc6b7ec0f1b64289a8810d25790f86abe55050729a6485c8cf1d9",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:1aedfc9c9e20f24d904da0c1e1405833bfb8a298bcd9b44ceaf4dcbfd0c9848c",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-12T19:58:02.5233286Z",
+              "created": "2024-03-12T17:49:26.4976111Z",
               "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/8c71a8820c73eb96bb58a3140c49c92108c4f8b8/src/runtime/4.8/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:10362d0d37e42c19666677991f4ac8a7f544fd93669154a254bc0453c05a0df7",
-                "sha256:7a4b55fc6efedeab7fa9112ea7c1782a910bf041e05e66d8e6225fca37bea69e",
-                "sha256:feca8e06011ab171ad74cda49c7c305e791965aef283d5b7c2b987dd5388e6c7",
+                "sha256:4ed1ee36e9176a3ca2ddd6444f725da9157b5f4ad8baf3ead931a503f2a83430",
+                "sha256:4e27dceaede8af1d38f5a2eaf42c1c36001bb07406e4e24744001e92b4f6ed55",
+                "sha256:a61557bf66429be9509f579104808d2853f8f7aefbd49ef26f5f2a90266c46f5",
                 "sha256:7c76e5cf7755ce357ffb737715b0da6799a50ea468cc252c094f4d915d426b3f"
               ]
             }
@@ -702,8 +702,8 @@
         {
           "productVersion": "4.8.1",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:29bf3c338e42f81886482e0bdd30e756cfc7c882d85db95ac4bcfa8bebc62776",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:79d1ef897a2457c37bdeb37e39cf7c5cd05dfffaeedb37b7c7633a86225e733d",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.8.1"
             ]
@@ -712,20 +712,20 @@
             {
               "dockerfile": "src/runtime/4.8.1/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "4.8.1-20230912-windowsservercore-ltsc2022",
+                "4.8.1-20240213-windowsservercore-ltsc2022",
                 "4.8.1-windowsservercore-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:a467db4e71dee3b01fcf23c78540e398d9884c6c1365f3469658621db2c296d6",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:8ca7dcee3e20c453e465d4810d0475732af57ace65f4e589420784789732993b",
+              "digest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:57c632f219b8e922322152877cc1afc7323824898888e2ae45f786e4eda3eed5",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:1aedfc9c9e20f24d904da0c1e1405833bfb8a298bcd9b44ceaf4dcbfd0c9848c",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-12T20:03:33.0142044Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/cbf8f5a04d8acd8fe57ea78cd94faa132f59a9ae/src/runtime/4.8.1/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2024-03-12T17:55:28.7713902Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/runtime/4.8.1/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:05d8d0a2b3bcd1718d51aca942484db67103f878269745eaebb24d56069e5bc5",
-                "sha256:de4c3a54398d8b8a843f7b52233a068545c6b8d030d8052b8f67461b33498f10",
-                "sha256:feca8e06011ab171ad74cda49c7c305e791965aef283d5b7c2b987dd5388e6c7",
+                "sha256:9cc72693d51a6430fa202eb244cdcbc19324348def5c77484de11ab93fc93380",
+                "sha256:e3b5fec49f9d2c68d0854fa4f4250c267a16a4a0a163abd4f20c5fa437dd1e68",
+                "sha256:a61557bf66429be9509f579104808d2853f8f7aefbd49ef26f5f2a90266c46f5",
                 "sha256:7c76e5cf7755ce357ffb737715b0da6799a50ea468cc252c094f4d915d426b3f"
               ]
             }
@@ -739,8 +739,8 @@
         {
           "productVersion": "3.5",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:b9948e7250e44752b18e1c74532048c85f81fb2e985c01daf99986e9473238c6",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:56a850602c7efb4a7a6793e9a340a17be702117617840f90cf9f61fedaf392e4",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "3.5",
               "4.8-3.5"
@@ -750,81 +750,81 @@
             {
               "dockerfile": "src/sdk/3.5/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "3.5-20230912-windowsservercore-ltsc2016",
+                "3.5-20240312-windowsservercore-ltsc2016",
                 "3.5-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:7e6d23c911696b79a53ba5f8bed97334fd68dda3f51fc5a10142f5a9bd2735d9",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:f83742c847a776d408f004567e56d66dfed2184bea6ab0fbf752943728099fc0",
+              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:24188fb4d1f83ce459436debf112cdda8fc2ab50777f977541be6ef1e0522b4f",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:b4ab8c3c5920758b6cc90dcc4fa9f066bc182b6d8346cc7b54c520fb736f3f06",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T21:11:18.8168815Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/cbf8f5a04d8acd8fe57ea78cd94faa132f59a9ae/src/sdk/3.5/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:28:28.4128991Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/sdk/3.5/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:3819666ecacb02816857060968acf94dfc6cf3527cd76eb79d54f0656745c869",
-                "sha256:b280c50d337f6d67f86c0b956e811a0328ce5cae9eafaf7e45a35de9c71a6b83",
-                "sha256:7b985c5ea3782d4b173029cb2324547563a823890d57eb8c549954e780f56ad4",
-                "sha256:9ff9537a2ffdd6901367c05ce1173ce39e6a8d505203a5d48f4b23f03d34e51e",
-                "sha256:b476e31aa73e6ee8b20bd307d72d7a7b685e0e87e8a4e26251a59c44b789dec2",
-                "sha256:6ecc4d51b00b1ce637ae90a0cce5b6f953d330772b47a212e965225987f8871d",
-                "sha256:dd080c0b9c3ce7091dd147b60ae6c3f218ae944a8b67cb563c2ba999e340d882",
-                "sha256:a2c2e184b84e26b6336c5940cea4f30838cb85d87dce22a884ac4acec6a1dde7",
-                "sha256:4c58366af4121d3ac4632369c1ccbc08317e1c50af9c2e497e300d610fcae32e",
-                "sha256:ca5e36ad86ee36279caede2de81f5867ae2e72f303e3dd41670aa82f9f3192eb",
-                "sha256:7aeb9fd47413f524cff7dc2dfc2e937e0b91ff413ae0ec8661fff82b78a47875",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:8ed87710b770aa14619adf9dbaac16440a7b8d2bcaad1ae7c3c304d0f3f759c5",
+                "sha256:c917557335bad4f06f267cebcc04c095604dd9333a729964fda26ea56fec6022",
+                "sha256:63ec7c798fa25ddee21405d9591fadd87f58a6099227fdb1518ad115bc4b63b1",
+                "sha256:27127d9cce3e6ecd52ebfe72b167648fe8f103973a8d360cd0d87a65c9ba7e50",
+                "sha256:1c17a8dbeac4187eaa3e897e24158ea9b00ef3de2efb0df11e0eef611f6f36fb",
+                "sha256:ed3ad75ed71d6d172314805ad547deced17383ec86143cd1583b416a89428a34",
+                "sha256:ce554e642ce54a61cdcae623ba7bd4ade14a261cf628e5a693be4b3f5cfb9beb",
+                "sha256:4ca03f2a835b3827250fb0e1bebafef65cdb40ff9c585f3d656f91a3f8fd85c2",
+                "sha256:745309b84645448517b5aaeef02943b957d0ad1debee479548c45bf6d73571af",
+                "sha256:1fa74af8c2e6a621831677d399eda6d671b53361240b39eae13da8febc1911a6",
+                "sha256:1c24695d17f49cb76e3a2ab2679e11634b765c87fe848df9c53fa3448e6bebec",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             },
             {
               "dockerfile": "src/sdk/3.5/windowsservercore-ltsc2019/Dockerfile",
               "simpleTags": [
-                "3.5-20230912-windowsservercore-ltsc2019",
+                "3.5-20240312-windowsservercore-ltsc2019",
                 "3.5-windowsservercore-ltsc2019"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:814acabac936f53bdb9d75b4549cb357cf8aa0e580a07b36963e52c0b88d8bde",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:b4b9c4d6c2333089c3227d328f4b1785766fc1c7a4d71221a98e92b39499cc6a",
+              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:9297e462de3a0541f24ca2b504dd6be367abdfbb673278d21ce5b976eab16c43",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:dbfddebe67306d688992565b0c4b3117e16103985a17dbf75567f28fa3ac128c",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2023-09-12T20:15:37.4631652Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/cbf8f5a04d8acd8fe57ea78cd94faa132f59a9ae/src/sdk/3.5/windowsservercore-ltsc2019/Dockerfile",
+              "created": "2024-03-12T18:12:25.6940117Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/sdk/3.5/windowsservercore-ltsc2019/Dockerfile",
               "layers": [
-                "sha256:4ccbd2c02c6cc14766d6f2bc60266cd83f10267389ae0bd85eceee2b1e23b066",
-                "sha256:137e3a06999788de1054d75a785dc57b44949062492d4a5aff97661d1ee18fce",
-                "sha256:29c9406f856da34fd4c136e318e098b68c97cd277924894feed60cc5f50825a6",
-                "sha256:e106cdeb2b56cc5cbce20ee0a525fd46072a56ba20fda880d7b03beee6c39dbd",
-                "sha256:a138da8e8afd3d8b92ce6744a1a9c82d00560f1abffb6465d7f70dedb307520b",
-                "sha256:e43403c182d2384c5833a102b001f4cb33a425e2cd9280f303ea0d3cd1699b6f",
-                "sha256:d7d72f3cebf497dac1ff2a34bb63fdb53d734be4338436788e39008d2a26757b",
-                "sha256:0f7536c1c12ebd8002699006c7dce00e65e26c72e79f8f55cbafcc916b759341",
-                "sha256:052632d82aaa975e1c5a3616ab9afb64929fe5d4c38f20f71c98f5b903f56f7e",
-                "sha256:179757339e051b99f9a62375fed8f87ffcc4df0eeedb984d20b485bdd089ad08",
+                "sha256:1a6152409c4523ab1d331336f52bf989db5a4e82780c889107d1a597b6ce5e13",
+                "sha256:ae24da087c94c8f889de4a1c44da033b09488643dbd5689d9cfdb1a963d2fa10",
+                "sha256:3e09356b2dfcc0ae4ca107a88ead538a9150fc37757dfb66d112a1e34a4020bb",
+                "sha256:906c89adb78af593739bd88fef8af5e613ce77854bab7b1f14b6aa43b44094d3",
+                "sha256:07d6b065ca93157c4a3a34f26bfe15423e46a038cc7d2d384e07eadc31b896f9",
+                "sha256:e7b7c00b38922bd6d15ac4eba9bb94755e44f4e2c682fb445aea14402493cf6c",
+                "sha256:e18311ec37986a185a9ce215af74d712f5d88f886f4cac6088df45f795bef969",
+                "sha256:18ab6f4e7f5ffa54ee93c6e19b75855ba7ab9ec16671cbd23d0819c509d3eb73",
+                "sha256:d2b052f98769468c7825956ea63b4759e9db4fac8959d29312d904802f610da0",
+                "sha256:a22a88a4a0d197cb745939f382a7898094af0a089fce3173f283651a01da996b",
                 "sha256:c9226d61d3bdbf9f09821b32f5878623b8daaa5fb4f875cb63c199f87a26d57e"
               ]
             },
             {
               "dockerfile": "src/sdk/3.5/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "3.5-20230912-windowsservercore-ltsc2022",
+                "3.5-20240312-windowsservercore-ltsc2022",
                 "3.5-windowsservercore-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:df4b50ab30faaef114cb2c02df41000f382984ede2961f6984961853b106963a",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:f01c0fb5236f11cceca67589b6e11c3f685b7556ff89e84373aaf9e0958d9299",
+              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:855cad4cffdc9900def04db47935e408ab2c357423e6920cdbd9f0ca8d1b9e9e",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:943be265ab2fb2526f363f8add0718bf8236a2fd46fd88cada42fd4c44fc46c6",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-12T20:35:14.1482811Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/sdk/3.5/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2024-03-12T18:14:34.8306087Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/sdk/3.5/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:eb7bc861c9256d2512c72f2ebdd1808fb599e595717d06e379aa01a062e7564c",
-                "sha256:986b41d07cd1b080ad2c60d190a8d1324f3a8de727a42665872f735aa562c45b",
-                "sha256:91c98568ce603e8d941ea7fa4f04d902575777c8bc6fe3f03c69019157296ffa",
-                "sha256:a524b2c0c4c3bdb994b659f3606265c24801d79d8d6e4943259fc7fe56e55ed6",
-                "sha256:4f4abb01553c06bdf856d38dc63a73dfba38c9ed2d2b332f754d100df954b1b9",
-                "sha256:36b30ad621894d5c3f1a1fd64f1cd199a5d83192e07a28f0c7ca14695832b15d",
-                "sha256:3e44453d1d7a5af10ae4de382341408e3f12534f2a5514b86194292f565a9d98",
-                "sha256:feca8e06011ab171ad74cda49c7c305e791965aef283d5b7c2b987dd5388e6c7",
+                "sha256:705a08546fe090221bc4f350291bf4c0dbd30ce0941e1b757a5fdacc0e528dfa",
+                "sha256:a7e086b51222281744495167a78cd07e2d18f53dbefa058222a932eabbb6df45",
+                "sha256:990a821a13d32ff8d6f31ff1408829b27b80258a8defc1f1d356f820dee7c3f8",
+                "sha256:55fbc0a9ef99cfb6ed81c283b9b9e4a632eddb68f2b8344a763a7f4c5374c5d7",
+                "sha256:a2e281d27f4cd7b67f43ef313bcfffc2244e7263d75c286cc36a968ee6de9aea",
+                "sha256:3be0ac718493b6eb8a79e13be8836b533c6a92d5e71b401227e56b2c1d08101c",
+                "sha256:5073dcbd83eafe0e73dcf2537cb85a24d027bb1b15315d35a3c04049b83a7098",
+                "sha256:a61557bf66429be9509f579104808d2853f8f7aefbd49ef26f5f2a90266c46f5",
                 "sha256:7c76e5cf7755ce357ffb737715b0da6799a50ea468cc252c094f4d915d426b3f"
               ]
             }
@@ -833,8 +833,8 @@
         {
           "productVersion": "4.8",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:21575d24fec4e17f84887c91f7cd6f5f9b33ad33029086a5caccd86a563138c9",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:1e86f34687434c1395cde15a58dec54e31c355353e3d9e4eaf5bf6a8be29cfda",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.8",
               "latest"
@@ -844,79 +844,79 @@
             {
               "dockerfile": "src/sdk/4.8/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2016",
+                "4.8-20240312-windowsservercore-ltsc2016",
                 "4.8-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:0648365ab93e8ae6fd33c28e51a693e3894eb313b2aaf15189d01619f1865b23",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:2b95267492012c4aeb6fd164eb8d96e36c742ac76fbf0831a3af1d2f26cc7d48",
+              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:980921a58d2de1490a69d4ecdcfea4145ff05f58ce57eb297803fd59213082df",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:14bb97866c5ae5e8e4c1fd00847be84ee1afd50904fca5971ee2416c10913060",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:47:06.5355426Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/sdk/4.8/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:08:54.5144739Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/sdk/4.8/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:db866c41fd7ccb9740bc2682f89872e5050d13a825605d9f1cfbf4b3a7e4739d",
-                "sha256:955fc1f647d2b2a255fdc1ba907ac9dfb1a485f91d7aa58ccf2e11f7522b40ef",
-                "sha256:6315773e903d50f4773170a6109b8e2c461080e19f86d98e24216c6434cff067",
-                "sha256:de062625c8b365a6a6f5b6ed734dcb92f980c1f6bce53077a619dd8980c74539",
-                "sha256:0af8f631296418ac05165204e1fed5653ff7d26ed3af923d3871d8e1d5fe0f26",
-                "sha256:2050f02530fbb3919aa833c54a04ec1262a54b4f294d8bc343ee91a2a404bc08",
-                "sha256:6d75a10822ff3b5b5da8b5af5cfc37ddfd37c4e8205bdf4c5f88370e69c43396",
-                "sha256:270109d94c011c9805bfca3ecdad99ff5cf4e428200b59ad910e89991153e345",
-                "sha256:01de08b916294002674a74c135b1aea804d08c99b2b8ad92bf181c5816f4f83f",
-                "sha256:b831757ccdcaba2739a45413d2b379bd26c42bdd460b67a7fc7659a5860d4ceb",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:5828cb19e229000a9257caa8fce272fb20fe479520f4d0bec558e56f4e77d66f",
+                "sha256:8d4dbc17958444a2665747598c2aa722bfc44ddaab925c4f64a7bc74a1caeb3c",
+                "sha256:a94faacda4358e4e52c6cb23ba267be3fc5187a18ee54d4fcf7557bd94f7d5af",
+                "sha256:d889b3e2b18e17a478ecabcb0f0fbaee82fb03fda26a0e0dfee3a285dbee9087",
+                "sha256:263541d00aa29fdc289d2cb4c2f7e1c1305b5b46540e5f2cb242b2210b42e33b",
+                "sha256:6fea1b3f766158a09f9202e832db0acefbcf734896b1e9805a6444d4561abaa4",
+                "sha256:0b9aaebfa5fe996468f82766673dfd1358dbfe196d1692c6cf1087f29518aa9b",
+                "sha256:90382539ecbb51ed21697ffb1e335548c963995500457ae910f2459af9cf4854",
+                "sha256:9555b68051230df87f75025f2bcb3b299e4039ea6dbe43b72ab3bbbf8902fd9a",
+                "sha256:97eccb118da5f258553d97de3d27f3ad93f80cdee930203e623150634663f13b",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             },
             {
               "dockerfile": "src/sdk/4.8/windowsservercore-ltsc2019/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2019",
+                "4.8-20240312-windowsservercore-ltsc2019",
                 "4.8-windowsservercore-ltsc2019"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:2669cf0d359f8eb800c539920ea7f73429f7ab61173d1c0f850260d521f1a38d",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:bf0217fdc494f804953ec59b004fcd52c111e38d79c8daef35c2f41af5a63b87",
+              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:e15423aa2e5b51384f2edd40ddd1317371fc43f9483ec055989ef5ceb0c627a5",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:78dac4e522f121788fbc834f3ccb6b7f7b19c15a3fbdcbfae60a9b3eee4537c8",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2023-09-12T20:12:56.7397922Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/sdk/4.8/windowsservercore-ltsc2019/Dockerfile",
+              "created": "2024-03-12T18:04:40.6847411Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/sdk/4.8/windowsservercore-ltsc2019/Dockerfile",
               "layers": [
-                "sha256:7f38d42d9fb75b11e83a359748e10340212444c72450e417b3b69b11a911da76",
-                "sha256:86635c00eaf9c82116ca45befc48363781a80ee8a55cfceb6bb462cf8757dc1b",
-                "sha256:a600cc87e265cbc41dc461ee141172bd4b7bd374ff5b3ee4a4192f11f6199ff5",
-                "sha256:01109210c2463e537a439fdbaa520b76c5f0352a35c134afce766b829a0ee391",
-                "sha256:d208a1073cf7b7719b74b192c5a2b2f130ed4794cdd29db8d2e802904efd75a7",
-                "sha256:594f44178141243f448acf291d77a776283c7133418597e70fe77e943a1bbb22",
-                "sha256:1bd84db35466d7b1fd592a88123e78d5d04bb1d980dd866651b40b0b872ca379",
-                "sha256:249005b622b504a8c4094503461c4ec1101b93eb0fc83e0aeb5031dc1a8ce243",
-                "sha256:179757339e051b99f9a62375fed8f87ffcc4df0eeedb984d20b485bdd089ad08",
+                "sha256:4e872082727bfdf63b62e3037c4a78d865645e3d33fb04459a7106958658a9b9",
+                "sha256:e7d69eccc578cb764e3aa32ded076add80b84f3eab351c9a68fca7f8f73d9333",
+                "sha256:649b1c58c6b633af30ad8dc3c76132efbb13a60b56a5b00fe36ecf310b90ee09",
+                "sha256:7d6fd609fff7cea9c8f58a3edde5dc400c0bf9126e38530018c63e875f2bb087",
+                "sha256:1d0379bc5034c7dfd16fa1f8c0331d86b7ee03a676739fd8df5137dac1aa4eba",
+                "sha256:491038be516bd2df50e43a51209ca5605c8dde6e84af04da0f9d655735954425",
+                "sha256:c0c0fc81f143a5a9d199f3910b65f143a217c5c60b2c1aa39e50b6886db62405",
+                "sha256:19968d48654c0839d96359ec3ef371f19af7852892160f57062c104f1a26b642",
+                "sha256:a22a88a4a0d197cb745939f382a7898094af0a089fce3173f283651a01da996b",
                 "sha256:c9226d61d3bdbf9f09821b32f5878623b8daaa5fb4f875cb63c199f87a26d57e"
               ]
             },
             {
               "dockerfile": "src/sdk/4.8/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2022",
+                "4.8-20240312-windowsservercore-ltsc2022",
                 "4.8-windowsservercore-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:1477b5cc53a36a8a5e8b865a5e11a32e836ba6061c120e4e5b0a1eea1fdf6c98",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:49bb37677c8d61281f15a49d3291baff4f5583e6cf5846fc4cee7527e59ff1c5",
+              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:76d2dd2054a18f47d9c690f9d0047e319d7b68aa4e72ee7aae46e3637042c165",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:4d29a1431d9bc6b7ec0f1b64289a8810d25790f86abe55050729a6485c8cf1d9",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-12T20:13:43.8330761Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/sdk/4.8/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2024-03-12T18:05:55.3764641Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/sdk/4.8/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:67ece666d2451c1793b65dcbc01ceea9f79caa630215cd83c82f37edea17f1b8",
-                "sha256:240c485f5f523705a582559515fd1f9ae48e6152d55c015052f3ee4926ec3dda",
-                "sha256:92feca250091141bc5ffc27d1a254f31be718fcecb1d054c12494d88e9602fda",
-                "sha256:e2c5a6a9500040245cd68593f1cb1c828d672358f7212b35ca63d491f476223d",
-                "sha256:61fbed6e61391e5e1e768d1487a22fcd00595989a38e607a2f1834fceef27f19",
-                "sha256:10362d0d37e42c19666677991f4ac8a7f544fd93669154a254bc0453c05a0df7",
-                "sha256:7a4b55fc6efedeab7fa9112ea7c1782a910bf041e05e66d8e6225fca37bea69e",
-                "sha256:feca8e06011ab171ad74cda49c7c305e791965aef283d5b7c2b987dd5388e6c7",
+                "sha256:c91f7b612cf578c35fcb0c13d6238c61aa53dbcc7fcf8a2efa50d865ed2ec14d",
+                "sha256:87d21a6582d91d8ecb11953cc9f8c827b1a2b2e28d05fb9b3f6a2785fd713bf4",
+                "sha256:495d512e6e91418e79dfad5f13734a4057d4eb6982043fbd5bf84cebc5db2f18",
+                "sha256:ebf68d8a0bf28251c88a64c02a2e6015a80249309a4c48364a0a982c6c2b7838",
+                "sha256:66c37a11bb501dd7c2292f48fdeac08c4eb6168c84d1c4d9412095bcf38ecfa6",
+                "sha256:4ed1ee36e9176a3ca2ddd6444f725da9157b5f4ad8baf3ead931a503f2a83430",
+                "sha256:4e27dceaede8af1d38f5a2eaf42c1c36001bb07406e4e24744001e92b4f6ed55",
+                "sha256:a61557bf66429be9509f579104808d2853f8f7aefbd49ef26f5f2a90266c46f5",
                 "sha256:7c76e5cf7755ce357ffb737715b0da6799a50ea468cc252c094f4d915d426b3f"
               ]
             }
@@ -925,8 +925,8 @@
         {
           "productVersion": "4.8.1",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:ced65cb6289373668a007b1ebce38c3fb41493765293c06a3ee19c27b00304a2",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:c7a3771b346ed42653ec454652213160be9389aa72445c9d12cab39078cd7dd9",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.8.1"
             ]
@@ -935,25 +935,25 @@
             {
               "dockerfile": "src/sdk/4.8.1/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "4.8.1-20230912-windowsservercore-ltsc2022",
+                "4.8.1-20240312-windowsservercore-ltsc2022",
                 "4.8.1-windowsservercore-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:010f0da30bf3d6927685ae1ea15d500e0594848a49084602042c445714db78cd",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:a467db4e71dee3b01fcf23c78540e398d9884c6c1365f3469658621db2c296d6",
+              "digest": "mcr.microsoft.com/dotnet/framework/sdk@sha256:f708822ddd36adca3225f070e02062d99bf9701624b9e899b63b5c59a9aad487",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/runtime@sha256:57c632f219b8e922322152877cc1afc7323824898888e2ae45f786e4eda3eed5",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-12T20:16:38.9466585Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/sdk/4.8.1/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2024-03-12T18:12:32.6497329Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/sdk/4.8.1/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:51710ebc656776e6769fe78ad7bf170cdd73d6f7797d278ac509fe7d6ea26141",
-                "sha256:d234459c7539683590f33541132c4726da99e3240003cd2133f98e16df287178",
-                "sha256:d62381195596ff0b0a9ac46ea0bd14e8884f088d176f2332e6a47d22b61a0d65",
-                "sha256:5c695a2c85bba07c0d1c98cb219969504529f5a054258171abfc96c8b24bd50c",
-                "sha256:556e250085025b9c59dd6a801e4c6c75e797d310bd7c9409b742d6965ead4c4c",
-                "sha256:05d8d0a2b3bcd1718d51aca942484db67103f878269745eaebb24d56069e5bc5",
-                "sha256:de4c3a54398d8b8a843f7b52233a068545c6b8d030d8052b8f67461b33498f10",
-                "sha256:feca8e06011ab171ad74cda49c7c305e791965aef283d5b7c2b987dd5388e6c7",
+                "sha256:49da5b2a521aaa9e0a94f0ea51080e6842230069bb169fd8841a9efa89c75da3",
+                "sha256:7d82081564d03a8db3bb53206f07c80ccd13fdcbf79d5891930b56c1f42ed8fd",
+                "sha256:b1c151b1fa19d5d56210e8b1defedae01dde17929d6c296304ee32e3caf1a97d",
+                "sha256:84473baeaf93bfbbb79f8870c7912517629159641c4e2f2b05824b9435cec52c",
+                "sha256:9adb2a59e8daa980e8d61f489f903c860a26c5b337456cf1cb51c7d14c946d0f",
+                "sha256:9cc72693d51a6430fa202eb244cdcbc19324348def5c77484de11ab93fc93380",
+                "sha256:e3b5fec49f9d2c68d0854fa4f4250c267a16a4a0a163abd4f20c5fa437dd1e68",
+                "sha256:a61557bf66429be9509f579104808d2853f8f7aefbd49ef26f5f2a90266c46f5",
                 "sha256:7c76e5cf7755ce357ffb737715b0da6799a50ea468cc252c094f4d915d426b3f"
               ]
             }
@@ -967,8 +967,8 @@
         {
           "productVersion": "4.6.2",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:8a6f16d3c77df181d8b31619afab9cd0deb126c0f0c6361bcb6659ec22553b19",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:7e7a412ddd2fad9d050f0b7f13228a841c4b5d6612fe9a512fe24ba6d59389a1",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.6.2"
             ]
@@ -977,30 +977,30 @@
             {
               "dockerfile": "src/wcf/4.6.2/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.6.2-20230912-windowsservercore-ltsc2016",
+                "4.6.2-20240312-windowsservercore-ltsc2016",
                 "4.6.2-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:8749ca881f6b232b1171af8545b2acce422049d023cded40ffc59078930cf415",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:7b77ead89c4ec181721f7db777b56875416875816c443771fbeef1e57c6d670e",
+              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:ffaa1cbb8c0b4ac2c50d6fc84133da1d54ebb155600e17d764197ad418fc4a31",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:c638a76ef2ccccbc22ae326c86521a408b8ae49824babb31d761aa3c13841070",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:09:33.7248103Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/wcf/4.6.2/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T17:58:48.2587214Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/wcf/4.6.2/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:35b13f117b7f449c22f3bd421b7aa0e8a5858c8b59942dc9404d88705fe3e8e5",
-                "sha256:77ca5a76694f70f7c00c1e4dd7f144f90af67b1e3bbd266f73f782b14d9f51f1",
-                "sha256:5329aed903a7949e19cb3c061824e83ec6cebbd947b3a24cf45b340ea378786c",
-                "sha256:f37ea96b8d23c97fa6e4ba259eb2d1e8d945e4503386612c7c39bb6259df3af8",
-                "sha256:025f7710f3c6486b221d5b9529399298fec761d24a660c25f811e314bcb02792",
-                "sha256:dd4a189f94ffaf1b927d4621d48d1808b74e6dd3eb6b2c52b65e1bbdaca1c56b",
-                "sha256:3ee082c3d80f08529233b2ced73fb2e3aaecbb769ac95827dd02b1b353227642",
-                "sha256:9ecab747ff86393d9b2f27ff26a01272c51f220b25e1dad5914ad9a4240a1d71",
-                "sha256:26239783522cf21352b92cb3132f9144f115fe93a3c11fcc1b47541be38a10fb",
-                "sha256:04122a2158d14de7caafb1c3669dfaa8693614ee7d61147d410c9a9e3905565b",
-                "sha256:f01647f35cfff8b8a47c065a32f20602170936a8a4f5ef09dc4e60132363f7e8",
-                "sha256:2bf736b321ebf0a40c5e45229d7506fdf37a038dce560e31c108ca690a734ffd",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:2210b5114cf54afd98cf849d6c68161219a2541a53dda00cc1df23e444c41de6",
+                "sha256:659687aa4ca96a466aef6bbd674c4fc84e1e0f242300b3f72179077a6896910c",
+                "sha256:7074735c1ca6e59f3f3ca53c500a615d045eee9ec0dd73c26d512b2b56cf93ca",
+                "sha256:9fa6a772a7ad8fbc94bf080ec37dbd7cf15158e86c892e209562616ada0a8ceb",
+                "sha256:53b1009bd671f461d10c637f7e4a13b4bbb992a8359111f7550b2f2771e9c5ba",
+                "sha256:bf76c4af49051da44be32dc662c04fa45a17e9be4ae87b487483e0ae5246c45d",
+                "sha256:2bf29831a8ef5d6b0dda05e5ab85039f95df138356b933dd4d014404a2778fe5",
+                "sha256:5665e76e35259a2343b59c6908a16a072daa8ab3e935a2581fc84d8957fe1205",
+                "sha256:66939f6cca9a3aeafa0dae61c2eb19eb34eda40ab3c6192d16538ddf5e065929",
+                "sha256:e5b51d88cad4f70553207edb174c96c04e2848306f016ef3dc499286cff8c6b4",
+                "sha256:cba39ee3c34424668bb9b59bafbf5c2ebceca61318e3c5898494238c01481357",
+                "sha256:9f0fb589f07a263b6ce147d4b165cf83dc224ecb94e3e81625b79556794a786a",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             }
@@ -1009,8 +1009,8 @@
         {
           "productVersion": "4.7",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:640d73e8b849294b08ae86397477c55cef78b7782e189f2a2bef05ff5c6086b2",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:20047176ffdcd615c478b32dc13e1d6fe363de5131b782d8f081af9f3a2ff2e8",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.7"
             ]
@@ -1019,30 +1019,30 @@
             {
               "dockerfile": "src/wcf/4.7/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.7-20230912-windowsservercore-ltsc2016",
+                "4.7-20240312-windowsservercore-ltsc2016",
                 "4.7-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:247fced71954af18a17f0544aa128f36c85c9b2b10a5e48ed300cd40a228541a",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:3dfd124b437bce401fa968aed4e5b8f4a31b4ff46706b27bbb711a198c876e62",
+              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:05f3943ccfceae6c9d802a252ba510a5341377b301d9534031d7c37b4ff9fc1f",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:31f1b4a2a7724daa831c8f8d37e062f348ce7e9b38c760cc858201a00dabbb90",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:35:31.9699381Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/wcf/4.7/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:21:26.9063635Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/wcf/4.7/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:9906ebe6eb38aca9be774c77cbfaed2c3c5c6cdb74a6dda6722fcd1e5c752b42",
-                "sha256:295350447c77dfe4e886fdb85bb533adc2b51dd03e59b0fabc224b88e99a09a0",
-                "sha256:d6051001023b4ad8e2bd0923225ff699084fcf4ceaa8d42c7a804b96289a7407",
-                "sha256:369fd27e855bba6fc91ef3c034701fce951aa92e22700e1bdd550620b780a74c",
-                "sha256:ff339851eb04afaf6110359c36954999316e07af1aeda0271fb0641f9dbc52a1",
-                "sha256:83b78ead80e7ae4f942f4c12eb1c803aea850accc6ef3e7b10ebf982410cc101",
-                "sha256:0e8f152d373bc3945e1d655ac84be5255353deabc77fcf19c52c5444b21d4c09",
-                "sha256:a47e77b9ff4f180d19037d3b695459cc5905a21310e17097d0796fe0d45ca7d0",
-                "sha256:dafa9d71c718d4fd3ec893886c915961b982ba0ba647e80d4a78d28370e80c88",
-                "sha256:ca77e24d786a37732ce4c34f1558a6903801a35efc98dc3d864e1e7f19e207f2",
-                "sha256:5a4fc347fe449dafd686422bfe05d2aa6aea591388c5fe815fc633b2ca67e9b3",
-                "sha256:4649412d8ad443bc58a0f4df8cba019c4600476d27e93d65754894ffe9f40cb5",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:b1629b0b7957f67c2bfbc9483df4e983364b27662ff38af0b741a4f3153d6842",
+                "sha256:c711ae306430b4b01139e0a1202026c335ebd9b2d89624c3c734ec528ad7b360",
+                "sha256:c2a00cd5a30ecb4f46302dec1be345acb9cb5cc2ec66600ee426fd070c37648d",
+                "sha256:f8ad97878ded56e68cb3cbda89757865fea4ca1c6cff5c510207b1f5ef62736e",
+                "sha256:26514258ee25c95b2fac90ac2a456d1fff0e0027f3269b74d773994111c2e37e",
+                "sha256:8575169b021e032bf391d6fef0ed4c1b4ec6f479812099701bb5d4fd8c72905b",
+                "sha256:34f463227d6245c7956d1b212b0307d9b8df6c16386f860517fde50f2f85ca4d",
+                "sha256:d13c01fab2afa9da7da31551cbe39615b7db70e8b0d384e5c0e756941e3d4bdd",
+                "sha256:926b73fbb76042852569b8cba32aa5824085c281762428639cc1689de0cdaac7",
+                "sha256:8756533427eeae48335995f9a5e09988bb6aa233961b8ba22d937b1a52a09572",
+                "sha256:2fd47d31b85619c133c27c2c77ee430c1991cc921a4661896649ad99effeb824",
+                "sha256:012768110f58d47fa29d0f4a28d8f3364bedd7a701312252b4fa3054c387a3b3",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             }
@@ -1051,8 +1051,8 @@
         {
           "productVersion": "4.7.1",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:9d497b265c0ab5ec27905319870acdd96f126752f5cd8f88ff6da867b24dd032",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:904e9bcb88f3bdcc95dca3cdc7e2d0bb79ba2f4c4acb3a0d2cc0a19574fb462f",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.7.1"
             ]
@@ -1061,30 +1061,30 @@
             {
               "dockerfile": "src/wcf/4.7.1/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.7.1-20230912-windowsservercore-ltsc2016",
+                "4.7.1-20240312-windowsservercore-ltsc2016",
                 "4.7.1-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:e92e47ed587042fec0f34cc0a5c52d5c9dcbd5ae9106bdf7e7a7e50c0c1376c6",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:53b1f36a0bf6b42419d2393990abf6af1cecbb120b1b198407f9e17edd99c3b7",
+              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:2de2a9ecee92ff5bf74b1f9d43dc073b6d6e89570b0d425dd232a780680b9914",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:b425030910d1b76665057dec0818ace38cc5590403b17ec9646ef4090a196e0e",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:24:53.5169472Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/wcf/4.7.1/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:06:44.6165249Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/wcf/4.7.1/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:89ae5a826c96f3ed2acd1526cb1553c797f690491fdf5cfa7593ef385b1f89cc",
-                "sha256:a98e9d229a5661ebc1c06fa554a63a976979e422ba53d471863938a79bd15c6d",
-                "sha256:bb3edfa6fca78daaefd73f948fe2425e81b04699e4be2a578f991f6adbc15d48",
-                "sha256:b40d0cd26e13b325c99a0a592e8b39a1c39977f9bc1dc7b0c3e9c108da2c4297",
-                "sha256:e412db415e6ed8628f60de9387b135555645a17e21009713fe9d14045cc298fa",
-                "sha256:5b93049312a85367ddbbb6e7adfc62ed31207318ba01c68f8959bc9facb711c5",
-                "sha256:2ada49d9c0af079e835034917f6d7384c1405453b601fb389b686c0bb87195c1",
-                "sha256:fb17dc41c17ef5b9fa320d00a8799fef89d1f0340fe16535b0934c973b652e17",
-                "sha256:0878346f2e5e330d2b039a28b65071664d8a3216c7f89a4698d28578671e3b72",
-                "sha256:33fb7d7724c0a239a2a32d77ef556b080796ad883537d129ce9d23185fa7d291",
-                "sha256:8f88fb8bb7534bf62068681efb20d16a082480d2c68338eb426e8a3c3139405d",
-                "sha256:5b9d5ed64d105c9089f82572b271d22b8c27efbad50d348eb7f6e3a9cbceb3c3",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:63a5630c2dc8b5927f7f0a518597a029ebbb519a8f7e2932b64b809b24faeb45",
+                "sha256:100719928f245527924d580152b608aebdc24bdcc46500f6c7fa0ce6c3f715cf",
+                "sha256:2db303f7990c4cc47f0a429653ec973b3aeb7c6facac708675efa9a93a079b26",
+                "sha256:0ba7f4c7eb4e2b71832c3328e07e3bd347641cd36bd502e97f65c9e94d07808f",
+                "sha256:1fc235f2252b2bd5fdffc7d305494788f42d87f1538b65b827ab00817f1773a7",
+                "sha256:4eed72e24bd3bde94e70860bfe8161a8784d0b9162e6d1e0bc0c74399af15ecc",
+                "sha256:6c5190be3db5bc297cd1efd90e0c0fcb1618fd0df5b2915a896a017d9c55eee5",
+                "sha256:06b8442c653d57de017d125dc470c63775c432cd7e16cd445eaeeb2555ebf2a2",
+                "sha256:be1e4b798e5cd23024bd927786808e679965574dd8e5b559574c74a2a465ec43",
+                "sha256:cc2e6a3275c72953b389b1d46a44067abed79a9fd4788721f5b836f0efd36125",
+                "sha256:641b0798b05dfc0ffcc2a8052d4dd0caff03c5941bbbe84ca46c129ccbac6c51",
+                "sha256:73d13c9a152e40e4de02b6fd0e711cbf4a40d383fd5700f7af91139f197709c0",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             }
@@ -1093,8 +1093,8 @@
         {
           "productVersion": "4.7.2",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:805f1c79656b24683fa455bb41580ee41d95363c802b5c6a606d97dfcf572881",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:071523d2238aea061ba2171691940a2ea7f6b1cbba52329a2ff695a0b24e3d75",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.7.2"
             ]
@@ -1103,60 +1103,60 @@
             {
               "dockerfile": "src/wcf/4.7.2/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.7.2-20230912-windowsservercore-ltsc2016",
+                "4.7.2-20240312-windowsservercore-ltsc2016",
                 "4.7.2-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:20bc520b6f20f1da18b9d97daa35c3a85f15719d1d73af1df1aa52733167f3ff",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:fba55a9f46550f298a95c9ab871534906597f6d095a1d9573fbc8731593ad3c5",
+              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:4fa7024b08d7aa0b61e3b22f0c4bc7123a24001416eabba1d4ef870544e13b43",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:529534d9f4f3c0f5cbffd23e4f32ebdd7d252f6d07e5c1e65ed8df09e557719d",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:33:05.0617547Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/wcf/4.7.2/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:07:35.4785586Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/wcf/4.7.2/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:c60df3b6e5fb31d3f42c0c2dc017dad3fc19dd864b5a809d957950e4e704c36e",
-                "sha256:073fc3f02e6a24548a93726cc8b9cbaed85d63f329338e66523185a70a39c364",
-                "sha256:5910706152e2d159419f89a60f9e8f2c8441c4a85fea3a38b5a4e56a0d9da7e7",
-                "sha256:ae99ddc77e8ddb4edca3f5fd725f21dd9925dfbfeb8bffccd66371e04c8bddea",
-                "sha256:d544b03d6b691f45aa5046c3c9844a7064f2be0d4008381718d52b6e77883e99",
-                "sha256:4ad2a1eb8d67381b85cbaf3814734411dbae1c768e997904b46f6f3dd8f06b54",
-                "sha256:5a96a0d9c84a565ee897ff564ebbd6170e2852159d73d2ed632e2ea1e66c78cc",
-                "sha256:e1fb02b46e117232fbc4ce65e4fe06b988b2b20c7f5a9cd2f5b104a84900f0d5",
-                "sha256:796a81f19fdd6d3cd091dfacdc0dcab4b44e5b39d19da4f4d6035295499ab583",
-                "sha256:e2232e53b50a0b282f746ee91d1721787befe51467b88db46dc8f07ea71bb37c",
-                "sha256:8678262e3722e98db6ee21c7c0f30c13fabdb809aa6836c3756c9d05ff4e7b17",
-                "sha256:01d489d03870ec790a1e16de726bfb61a8d9d255761da85db0305893bd4dcfb1",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:1f4105ad2308a18cab481c2291622a33eb78f0dc1c3452684af33381935e1a68",
+                "sha256:6f63530b994096409bf6c5b2d340677ca3bd84d839a9b1c892d8d0a6f7ec05a9",
+                "sha256:6b0ce28c690c3667043d8fd3b73893a6ee9ede251b3296db4c4c28a05a6cba22",
+                "sha256:40df288aa2a4e126414e5715da008d146a8142606b4930b94e53128bebb43a5d",
+                "sha256:de3d4596094458654edd11dac4e2c1d237aede47fcc385d79039df9f3585c4d9",
+                "sha256:ba2426b55ef9ab02e4520d470ff16ef2b17b02493fe2a17282748e96a1d41ef0",
+                "sha256:15913c22e593bd52be1d92f828816e40895accdbb4638d6d864379f692ac61e2",
+                "sha256:78052109a140b7a05fa9e9f864f606b6fcea5ced2e349e22b5800d8b4431f559",
+                "sha256:2075e1384e58b87e40adb95f50729d0686a59908921a0988a5391ada3030a7f0",
+                "sha256:4bdc669042cbb3d7a72c02f596a75c164c7b586895b0b2bab7b76f96d5b5432d",
+                "sha256:11a6a1492a6b44b627ab02a205bcd78956d16e72c74049e0e99b471277f19ddc",
+                "sha256:10b88f27f81b5f066568729657866819b84086f000237417eab030c0f0e8c508",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             },
             {
               "dockerfile": "src/wcf/4.7.2/windowsservercore-ltsc2019/Dockerfile",
               "simpleTags": [
-                "4.7.2-20230912-windowsservercore-ltsc2019",
+                "4.7.2-20240213-windowsservercore-ltsc2019",
                 "4.7.2-windowsservercore-ltsc2019"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:e7dfd14b3d76509c895cf6a50c2b9fbc026e0a311a5144eff7c3a8b48a6d09cd",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:8b78edce1511c0effd42be03a2cc168cec8f8dbd29eef0a745d6e88d2edd1de7",
+              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:fe9f92c5a5ed71e621ed11894c24a359bb4b9cccba8c3c71f627cf1f4ce2ea5b",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:b76a6bb90a02feb7c502278448d08a1b6ae69ba4c273671d487c114267160e89",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2023-09-12T19:52:06.3383007Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/wcf/4.7.2/windowsservercore-ltsc2019/Dockerfile",
+              "created": "2024-03-12T17:53:57.2672918Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/wcf/4.7.2/windowsservercore-ltsc2019/Dockerfile",
               "layers": [
-                "sha256:4dbbcd87a8709faafd52c689c37bbe34532e17a5a96b921b076efa329c770af2",
-                "sha256:c9ae160abe39549bbd5cfe247136210a4f1a948266568f96130c03a8a73b3a31",
-                "sha256:89a952b79d8af74d25517dd8ab512276822b0f276828c1275bdc46b22d113437",
-                "sha256:0eddfcd5dc414b92d54ac17964c72f19ecf9055e01fca4558511a5b4c9e86166",
-                "sha256:6540aec0fedd169a9b0c9ed4daad5823a2c46f92a8f0c99065d22115980cb23c",
-                "sha256:3264a530c47fae616557b45701827f96bb5d74bf31ba10adaaaa028392ff8345",
-                "sha256:17404f1af4cdffc9849007eca90b34a6f1ac63d3be1192f353d453c3d27c4645",
-                "sha256:85fa39b1325d0da924ba7c98d77a6b2d27a0ff087a212ceda3257ca97777e39c",
-                "sha256:9b31165ec6d753a98a2a5516a0434f74d2ff176653b5b1c8b0698fcf00a19377",
-                "sha256:fc597faec0020b427759c8e6443335deee02cb9a585575fb37dd5b9f64eaa651",
-                "sha256:399157cea5ced265b6dc5fbbce81d20390fb7e2d1d76a3f29ddbbd31f4ee7e88",
-                "sha256:3ab599954c62eb3a7c940a031cbaf367effaf7a7c3a1587c5ce30ef055f31d5b",
-                "sha256:179757339e051b99f9a62375fed8f87ffcc4df0eeedb984d20b485bdd089ad08",
+                "sha256:a7da422aeb1aad68d775149de97d4f56762563e776f77bbf13e0375f42a68e31",
+                "sha256:2dd289caac4c0ac896110153bb24482b4ba4d0814becad417f2ac9006217d009",
+                "sha256:dbd2f87a574eed15bade108eabbfa1eab753ee09ea97ef9af4768c84ca45e7f2",
+                "sha256:e13fb41cac8b413972beb29c61b65bad3f8cbfbb695fdda1f7146bee4e905a7a",
+                "sha256:40ea1483e846aae1006967c07e73d642b127c361c64a448f0dce8a40d47bdcb3",
+                "sha256:38241a5a351355ffa610559676a789d29696697e47d0444b83acb2b968907602",
+                "sha256:40c539f7e2d60a18e9863ec995b427639aa5745f2b01437ba4dfae498b08e3f6",
+                "sha256:c2f7ceb5085bb89fe160f8f8e1cb6f1b1809e5f66452464a4285309a5791b06e",
+                "sha256:7f5bb460b84d649b3304b002f86b4407d09eb4848d80fd62a96d897983e7a40e",
+                "sha256:e8411079eee602be180e649cbcc23c6b57edfdc9f66d23527cc1c906714f3b87",
+                "sha256:54b7b54a9d2e43dbd287a68ef8bff47521d15f306f2a3511f7ba29e11f84a8d8",
+                "sha256:0236a20efef20100c75ed423cc65e66aba5934a8f3a1c491bb2a0fe12b2ead52",
+                "sha256:a22a88a4a0d197cb745939f382a7898094af0a089fce3173f283651a01da996b",
                 "sha256:c9226d61d3bdbf9f09821b32f5878623b8daaa5fb4f875cb63c199f87a26d57e"
               ]
             }
@@ -1165,8 +1165,8 @@
         {
           "productVersion": "4.8",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:50d6fc10d8be03ba718afa9ef1abac3d1f62ebe919dad815794fd015720bdcdb",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:f3ff3650ebdbe79a06f323c3958ff10e334e768d65e778869d6d7e61127c8681",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.8",
               "latest"
@@ -1176,89 +1176,89 @@
             {
               "dockerfile": "src/wcf/4.8/windowsservercore-ltsc2016/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2016",
+                "4.8-20240312-windowsservercore-ltsc2016",
                 "4.8-windowsservercore-ltsc2016"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:bda29fcc6860c3ee8ef5c870fcbd1159ee88fd9f0c1f494c1e9a90bb3ba92c56",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:eebecec09400586a1f2ab27a7d540aec01741aafc97d86cc1c55f0cd2d45f9ee",
+              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:3f88c60527a0c7475d63f0428393425c834f676b6dfd5cf66d118928cde8048b",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:3fe0582ed73c98eb2043fb17926e9f7ba8841ce570c70a5712ad27b96e0e85b5",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2016",
               "architecture": "amd64",
-              "created": "2023-09-12T20:51:44.1403014Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/wcf/4.8/windowsservercore-ltsc2016/Dockerfile",
+              "created": "2024-03-12T18:13:18.1012947Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/267e6647f4132dc09bf27b7d8cbd52a2b930c030/src/wcf/4.8/windowsservercore-ltsc2016/Dockerfile",
               "layers": [
-                "sha256:cde39eb20c700dd7a38b3ecf15714c56c35127a80e1b1767975c5361dc8b5145",
-                "sha256:553c4cc111fee382e1a6ab1c93ccf5434e6e4a7fc2f0982ecb155c3c1a023542",
-                "sha256:dc7b0a1b9bb355d6e2c87e697c34db66267060e431b55df59dcaf13a8a093b23",
-                "sha256:2c51d0db3bedf8195357f053086521ffd061027412231d16ad467ae2a80ab5b5",
-                "sha256:031530be56c13f0466165974021b817373ceffbef1daabe8e4f50e94ac07c8a6",
-                "sha256:310148a0f11136479e0b050733d35297bba16357a39c9a38bd8257c3d876e79e",
-                "sha256:71ad2763b2f3485aea8991f97bf9ecf6bec85779ad594b3391b919700bc35ebe",
-                "sha256:be1988a9c8d08b4be4df14c974e9bd0aa699a982dbea0be28ed6f735b8d2e13f",
-                "sha256:c6f5f847f006ab3fa50ace268f7e523be73e8cb713f03c91e0dface9cf475bb6",
-                "sha256:7cb2d3e78700685b3ef7bee1aad36218520df019a6d191b6767aa7e25a0ee557",
-                "sha256:01de08b916294002674a74c135b1aea804d08c99b2b8ad92bf181c5816f4f83f",
-                "sha256:b831757ccdcaba2739a45413d2b379bd26c42bdd460b67a7fc7659a5860d4ceb",
-                "sha256:c09bcca732f4798db2f27024e8e81c0208569e7aad5808c2a9bed7ed5a4ece91",
+                "sha256:8ac3ba48dee4b17fb6b4f20eb76550d69fc6a7e7bb218a8bf29e8652bf194c3d",
+                "sha256:f89da8d2b81a98d343c3206b15334947d351ae5257f8c50a3ed68526cafafd1d",
+                "sha256:bb8d2f9b82c884433dd5777a16a730c5cc2de0034c85993887174e01e2c2f5c8",
+                "sha256:1cbdbcbcc10d9de7283fbc120265512c1be30135c5f88a4f4c866c162e7e70e3",
+                "sha256:60f682c74ed4894877e2c23182a22a51003e45dd0fd6eec376758cd173331ba7",
+                "sha256:c6070b8a6525aea477b7e20f833af5fda6706c8b61a99fe8c4a588c55e5a4862",
+                "sha256:1ac81e3048b48532cb7f522b50caea709f435d351b01935f1318b3f8c0a9e69d",
+                "sha256:e11c16eb9deb1b89d51fe7ad93dd264855cecb9e82a2f3535f12d04dc3a51027",
+                "sha256:fb1a2eabc311efbfb763609933a43504814cc331e03ea668e1f0afbd8c262747",
+                "sha256:578a0761b36d1716e25246496004f1d1412e32bad1c5e087f1f54452479d54f2",
+                "sha256:9555b68051230df87f75025f2bcb3b299e4039ea6dbe43b72ab3bbbf8902fd9a",
+                "sha256:97eccb118da5f258553d97de3d27f3ad93f80cdee930203e623150634663f13b",
+                "sha256:f17b297af7573fe4d19bb9b7c8462ab194b2591f7960394486abbda6533dd781",
                 "sha256:010ca8045f7ed43016b902c6d72d6fb73cbba3827a25c4fe73c48c80394df874"
               ]
             },
             {
               "dockerfile": "src/wcf/4.8/windowsservercore-ltsc2019/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2019",
+                "4.8-20240213-windowsservercore-ltsc2019",
                 "4.8-windowsservercore-ltsc2019"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:4266a024c3b6b221929f54bf781ed64eddf9a58e9eda18f77be971f77981d39a",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:604f8ccbeebb10fc9e6ffcea3402459a7ed4b30ff0a39f21337696d5782ab52a",
+              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:eeb20fd736deaef7585af136ce258cfc33c08c5d782fc73940d871463ce9d407",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:ac14bbc4ac85bb5d2891ea7e7d39316c6df63b749ef6447644289bb09455951c",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2023-09-12T20:18:29.3860825Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/wcf/4.8/windowsservercore-ltsc2019/Dockerfile",
+              "created": "2024-03-12T18:10:07.310018Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/wcf/4.8/windowsservercore-ltsc2019/Dockerfile",
               "layers": [
-                "sha256:729b0ec960dbfbf9376d2527c31d2cb341fe91fac3b04b70652e110e9ce177e3",
-                "sha256:bfed5431d7f22e962822189273c3dcb7daf4eaad19936b40aa7b5848abd57158",
-                "sha256:2061693fd9baf075b17d3e3760d48d79d17ea878e88bb2e32e787f998ab667a8",
-                "sha256:2c4cc5b5d22fbb1c9dac01c0e860510a6ba38ce7da217b1878443efae1de8a44",
-                "sha256:4c2b53b9dc114a45a3b35fd1db8ef7f2cd09b126869862a35419d42d22fc277f",
-                "sha256:1d15cb5eea18bc4ed1810345dd28679f1ae9c56ae7e83ca16bef95c3e2ecccb1",
-                "sha256:4e3be8b74714cb72d42fbe1d9e9f115fd600730c3d50a2551715c181cbf42ed1",
-                "sha256:ea577f325e5d6d98f5817b74acd03503a3190179da170efebf545eddf3ecbd82",
-                "sha256:73670f67b22ed8c7e7857f21a3cc2470d3c274ebb7b3c7dbd5c4731aaa2489a4",
-                "sha256:ca6a874ad8228a38b68659c3afcf80eb63919a49635af1ad268b8eea463789e1",
-                "sha256:1bd84db35466d7b1fd592a88123e78d5d04bb1d980dd866651b40b0b872ca379",
-                "sha256:249005b622b504a8c4094503461c4ec1101b93eb0fc83e0aeb5031dc1a8ce243",
-                "sha256:179757339e051b99f9a62375fed8f87ffcc4df0eeedb984d20b485bdd089ad08",
+                "sha256:a3d9d51f73c7f5b51b486ae7c38e74551247ad59a312682cbfa1473ccc4c5d6b",
+                "sha256:85e52e73a4fe3191ceebe25871be1bd3d4116d22e48c4224b711e37bbeae4f7a",
+                "sha256:4aa4d0d990c18a8dd69f2829c9f1d57169dccf9ad9db042081bd23f7638f9885",
+                "sha256:12c84c9803fb8a6b69f58b43a4615fd42ea5ec45468ca24b28e0c8235fecefd5",
+                "sha256:605b4bc546f64645bf31140c9a06e717c814b5a0fbcf1385b1c4e2b613140019",
+                "sha256:9dd1aed021e9949904c0508d230b49dbde505274761c34347bb0bc127e9bf737",
+                "sha256:0a33ff31c181cad4d6739107aeca2751f211e4c708f8a7f4a1aacb28918333a2",
+                "sha256:0fa68d47c8dbb1c8a39459f6a404cab44a5a8a253eec75cf35172c43fceae4aa",
+                "sha256:f93b995db9ba7a91c84338e5ea46223eabb7038b6bb5453d6ce59594aac4371d",
+                "sha256:c6db04609503db0402829a8043de325c8fc7f53b6873ed5c1adace8e14e70ca3",
+                "sha256:c0c0fc81f143a5a9d199f3910b65f143a217c5c60b2c1aa39e50b6886db62405",
+                "sha256:19968d48654c0839d96359ec3ef371f19af7852892160f57062c104f1a26b642",
+                "sha256:a22a88a4a0d197cb745939f382a7898094af0a089fce3173f283651a01da996b",
                 "sha256:c9226d61d3bdbf9f09821b32f5878623b8daaa5fb4f875cb63c199f87a26d57e"
               ]
             },
             {
               "dockerfile": "src/wcf/4.8/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "4.8-20230912-windowsservercore-ltsc2022",
+                "4.8-20240213-windowsservercore-ltsc2022",
                 "4.8-windowsservercore-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:910cb9a76a67e61a2c8bed23f1e1ddb3b9cf99f7a2437f8dbddc32441ed96011",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:5aa61257ffbd2dbc534f2591d70dbc56fad6e8ca363d48f5aa4f2c2b2ab64821",
+              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:f0bc48ed7c8d2e43a4e7f82d10b9518ef63290833371664297055147595fb849",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:860454405335b1f0dd84a8b5fd2bb3a5e0289cc78a71d4efd4055eefaab13653",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-12T20:21:27.8673931Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/wcf/4.8/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2024-03-12T18:13:41.992556Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/wcf/4.8/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:b40cf0721a3fe0507717db6d3a288c73f6b861cf8dd0fc14c29dee931f0045e8",
-                "sha256:0d936b214689db7e8f71dae4b4f622cab6b986991eb5fbd8f0dbb4553c121f85",
-                "sha256:57747c0898b191262b39059d2ab509b93d19ec82e42b6fc4913f8e5aee57df51",
-                "sha256:f4d162157638f4bdbec4ba07274b3ff7f969bace198c0e5db49efe22cdc4a83f",
-                "sha256:812965866fd6c7f57e9ae42664f1bc1ff55c1f5bc683038dcc72eaf2b67d5f68",
-                "sha256:78e5b60bc648b83a077438be1b83b32050e0b3b6d40b9fd799b43677f6343081",
-                "sha256:99db939f9c2e1bd2d0b53bb1146fa6915b1543eacff7253b3ee476ad3b4334ca",
-                "sha256:a8f3c8abce5aab0896b98f8fe395b883da04c370be9e9c6fbc18006bc34d2b6a",
-                "sha256:f848cd6dded02aa6f586bb916c7d33e9a121129270e91d2fc9be78586d21e2c6",
-                "sha256:10362d0d37e42c19666677991f4ac8a7f544fd93669154a254bc0453c05a0df7",
-                "sha256:7a4b55fc6efedeab7fa9112ea7c1782a910bf041e05e66d8e6225fca37bea69e",
-                "sha256:feca8e06011ab171ad74cda49c7c305e791965aef283d5b7c2b987dd5388e6c7",
+                "sha256:3c4c51cbc9cde39cbe3057a3a472b7bab4ccec8c21be5df5e1ee94a5d9ed3e54",
+                "sha256:6b0060af868890ec7edf7eed0310cf41cff5433ef2e7ad0bcb0da12a27baeb3e",
+                "sha256:29905be7792a76e9b918e403ff49c028ba85e7b1408b6483daa9b400b797b13f",
+                "sha256:610c5522d3642fb73feea7ed14fc9de7039100fbecc33fea62b09bc3a087193e",
+                "sha256:0bc488ee568cc9be96db4fda964a1e3abe5a1d561a56b486716b3738816ef06e",
+                "sha256:20e062c993ea0a10c45bf1531c71e68f6be6afceef8008133675bdc93a979b09",
+                "sha256:82f2e2628718c5686901901c1936254190b68833e7e7d55f8a2963db6f70405a",
+                "sha256:a983fdc8b6afdf94c1ca0b3b1a90d6c719c093f7d30624174946d75aafcf16a8",
+                "sha256:461e155a114fd10742fce733328a2c2ce447e06b211fa9307c345f6006d75b72",
+                "sha256:4ed1ee36e9176a3ca2ddd6444f725da9157b5f4ad8baf3ead931a503f2a83430",
+                "sha256:4e27dceaede8af1d38f5a2eaf42c1c36001bb07406e4e24744001e92b4f6ed55",
+                "sha256:a61557bf66429be9509f579104808d2853f8f7aefbd49ef26f5f2a90266c46f5",
                 "sha256:7c76e5cf7755ce357ffb737715b0da6799a50ea468cc252c094f4d915d426b3f"
               ]
             }
@@ -1267,8 +1267,8 @@
         {
           "productVersion": "4.8.1",
           "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:7db575f93394473d7a35d56eb8a9a7c81c6480055d89145a648c637943786a9e",
-            "created": "2023-09-12T22:33:35.6037304Z",
+            "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:c97795ee626cc8033235c16269ecc4afcee5524db435c53bbc001ca5b1c29812",
+            "created": "2024-03-12T19:40:23.3197616Z",
             "sharedTags": [
               "4.8.1"
             ]
@@ -1277,29 +1277,29 @@
             {
               "dockerfile": "src/wcf/4.8.1/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "4.8.1-20230912-windowsservercore-ltsc2022",
+                "4.8.1-20240213-windowsservercore-ltsc2022",
                 "4.8.1-windowsservercore-ltsc2022"
               ],
-              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:b243d06b3d9f279acee559094cdc6b386da17134ea9da7df9dcffecf9066998a",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:112822e1b1386fd39a11a6e5d6ed3bafebffc986f8e0f106675827fa001f9c2b",
+              "digest": "mcr.microsoft.com/dotnet/framework/wcf@sha256:7e29a973454faddf10e714bf15ce96bcb5c636f240b0989b57bbc099be929650",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/framework/aspnet@sha256:284cf40c05f4a00747e17721457067e12cb16f14f4c131a6ddfcb9b3b74d8a29",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2023-09-12T20:20:40.9916595Z",
-              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/a985c40027c5f961af6663beadcd7add522acd24/src/wcf/4.8.1/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2024-03-12T18:16:57.2715247Z",
+              "commitUrl": "https://github.com/microsoft/dotnet-framework-docker/blob/94520ef44f54b27c2d67e1a4e1b4f654ec6b9f5d/src/wcf/4.8.1/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:bee7d19f8bc9e694fed4c0e5fe70174c930f0381374f4ba8cd59e22dfd45bfcf",
-                "sha256:edb376232b8436d7fa910336bf9652a35a2d2023c85d70b3ab44750c5fa636c8",
-                "sha256:c18d39de34d86e4b183218bd5e84ccd9d38b7a7020d7d98e82637cee1405b49d",
-                "sha256:3010278b48529999c19f86bee2c524cde3bef8196b646503d38a0e0998d5aaff",
-                "sha256:2eaa05c56a1fea1126424523695c777e7d08b2a180b0a9d28c50915e88a254f8",
-                "sha256:bb81a8694efeac7a3c59ebfcf280fbb485838cdd6ab07bb5ad858466bd2de28c",
-                "sha256:4ca27eb435fa90944e0229e55197c99a8a8423b3e5aa036b0ec8b42e176afd4f",
-                "sha256:dbdb5cbeb53f7aac04f360ac6b6f7a26c86135ec2b0e5ffe1eb03b051ac6c19d",
-                "sha256:106b6afad403b8a1ec8e227be20e37e775de289b38fcea76b1d99ec467c4a6e7",
-                "sha256:05d8d0a2b3bcd1718d51aca942484db67103f878269745eaebb24d56069e5bc5",
-                "sha256:de4c3a54398d8b8a843f7b52233a068545c6b8d030d8052b8f67461b33498f10",
-                "sha256:feca8e06011ab171ad74cda49c7c305e791965aef283d5b7c2b987dd5388e6c7",
+                "sha256:4d618fc58426e56b66a7114f26e5e5b56a01fcec138e119032e7b6518f879505",
+                "sha256:37cca2cec439505df31065bc90d0a8e7cfdb2b24e6272c2fb30ef9061675cee0",
+                "sha256:30c9eabc88646a78d9c9737cf6c79408ebabc13e950f600de348a7e9f3651765",
+                "sha256:2c879af5f81072feddee56f320eb8db776f8419cd3ba5f7ef399a988454defae",
+                "sha256:8d80605bc6990e6ff6bd234a7318b439a66d9d9de99b0af20d973ff29a84f6ca",
+                "sha256:7bc92a5d2e24c33672507ec3ebd236ca3d54a97f7bc5ad0652f2b432d21cce14",
+                "sha256:48f3a9688fe28b2859fbc516583fe8fbc8195d874a05aa3378b6fbc1fd490a6e",
+                "sha256:9dfbcc124fea5d632d8c1e709a4506b84a776a3b188bf28dc7328ceea3e1634a",
+                "sha256:e57f6c2a5ab1e2abd4549e5a0792969273a4d57e385c98cd5c0b398035c6b391",
+                "sha256:9cc72693d51a6430fa202eb244cdcbc19324348def5c77484de11ab93fc93380",
+                "sha256:e3b5fec49f9d2c68d0854fa4f4250c267a16a4a0a163abd4f20c5fa437dd1e68",
+                "sha256:a61557bf66429be9509f579104808d2853f8f7aefbd49ef26f5f2a90266c46f5",
                 "sha256:7c76e5cf7755ce357ffb737715b0da6799a50ea468cc252c094f4d915d426b3f"
               ]
             }
